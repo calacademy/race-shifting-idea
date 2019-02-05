@@ -7,7 +7,6 @@
 
 /build
 /public/dev-data
-/src/**.css
 /src/fonts
 /src/img/people
 

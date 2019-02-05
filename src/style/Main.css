@@ -86,7 +86,7 @@ Poll bg #00aeef #b3e7fb
       height: 985px; }
       #main #full-width #persons-container #bar-container {
         position: absolute;
-        bottom: 460px;
+        bottom: 420px;
         z-index: 23; }
       #main #full-width #persons-container #leg-fader {
         position: absolute;
@@ -99,5 +99,5 @@ Poll bg #00aeef #b3e7fb
     #main #full-width #details-container {
       position: absolute;
       z-index: 3;
-      bottom: 65px;
+      bottom: 50px;
       pointer-events: none; }

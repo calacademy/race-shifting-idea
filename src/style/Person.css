@@ -36,7 +36,7 @@ Poll bg #00aeef #b3e7fb
     bottom: 50px; }
   .person-container .person#person-0 {
     z-index: 21;
-    left: 40px; }
+    left: 30px; }
     .person-container .person#person-0.on {
       background-image: url("../img/people/person-0-on.png");
       z-index: 24; }
@@ -88,7 +88,7 @@ Poll bg #00aeef #b3e7fb
         background-image: url("../img/people/person-4-off-dim.png"); }
   .person-container .person#person-5 {
     z-index: 20;
-    left: 1107px; }
+    left: 1117px; }
     .person-container .person#person-5.on {
       background-image: url("../img/people/person-5-on.png");
       z-index: 24; }
@@ -99,7 +99,7 @@ Poll bg #00aeef #b3e7fb
         background-image: url("../img/people/person-5-off-dim.png"); }
   .person-container .person#person-6 {
     z-index: 19;
-    left: 1290px; }
+    left: 1330px; }
     .person-container .person#person-6.on {
       background-image: url("../img/people/person-6-on.png");
       z-index: 24; }
