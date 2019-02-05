@@ -30,10 +30,33 @@ class People extends Component {
       let svgPaths = svgDoc.getElementsByClassName("click-path")
       for (let i=0; i < svgPaths.length; i++) {
         svgPaths[i].addEventListener("mousedown", function() {
+          let x = i
+          switch(i) {
+            case 0:
+              x = 6
+              break
+            case 1:
+              x = 1
+              break
+            case 2:
+              x = 3
+              break
+            case 3:
+              x = 5
+              break
+            case 4:
+              x = 0
+              break
+            case 5:
+              x = 2
+              break
+            case 6:
+              x = 4
+              break
+          }
           _this._hideAllPersonDeselectMasks()
-          _this.props.handlerSelectPerson(i)
-          _this._showAllOtherPersonSelectMasks(i)
-          //_this._showPersonDeselectMask(i)
+          _this.props.handlerSelectPerson(x)
+          _this._showAllOtherPersonSelectMasks(x)
         }, false)
       }
     }, false)
@@ -47,10 +70,33 @@ class People extends Component {
       let svgPaths = svgDoc.getElementsByClassName("unclick-path")
       for (let i=0; i < svgPaths.length; i++) {
         svgPaths[i].addEventListener("mousedown", function() {
-          //_this._showAllPersonDeselectMasks()
-          _this.props.handlerDeselectPerson(i)
-          _this._hidePersonDeselectMask(i)
-          _this._showPersonSelectMask(i)
+          let x = i
+          switch(i) {
+            case 0:
+              x = 6
+              break
+            case 1:
+              x = 1
+              break
+            case 2:
+              x = 3
+              break
+            case 3:
+              x = 5
+              break
+            case 4:
+              x = 0
+              break
+            case 5:
+              x = 2
+              break
+            case 6:
+              x = 4
+              break
+          }
+          _this.props.handlerDeselectPerson(x)
+          _this._hidePersonDeselectMask(x)
+          _this._showPersonSelectMask(x)
         }, false)
       }
     }, false)
