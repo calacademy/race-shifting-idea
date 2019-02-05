@@ -1,0 +1,102 @@
+$blue: #009cde;
+$green: #6cc24a;
+$orange: #f2b944;
+$gray: #676767;
+
+$light-gray: #959595;
+$light-blue: #b3e7fb;
+$dark-blue: #00aeef;
+
+/*
+Poll bg #00aeef #b3e7fb
+*/
+
+$easing: cubic-bezier(.215, .61, .355, 1);
+
+$person-0-img-off: '../img/people/person-0-off.png';
+$person-0-img-off-dim: '../img/people/person-0-off-dim.png';
+$person-0-img-on: '../img/people/person-0-on.png';
+$person-0-color-dark: #4c4366;
+$person-0-color-light: #9783bd;
+
+$person-1-img-off: '../img/people/person-1-off.png';
+$person-1-img-off-dim: '../img/people/person-1-off-dim.png';
+$person-1-img-on: '../img/people/person-1-on.png';
+$person-1-color-dark: #735924;
+$person-1-color-light: #e4b023;
+
+$person-2-img-off: '../img/people/person-2-off.png';
+$person-2-img-off-dim: '../img/people/person-2-off-dim.png';
+$person-2-img-on: '../img/people/person-2-on.png';
+$person-2-color-dark: #1e546c;
+$person-2-color-light: #3aa5d4;
+
+$person-3-img-off: '../img/people/person-3-off.png';
+$person-3-img-off-dim: '../img/people/person-3-off-dim.png';
+$person-3-img-on: '../img/people/person-3-on.png';
+$person-3-color-dark: #3f602d;
+$person-3-color-light: #78be43;
+
+$person-4-img-off: '../img/people/person-4-off.png';
+$person-4-img-off-dim: '../img/people/person-4-off-dim.png';
+$person-4-img-on: '../img/people/person-4-on.png';
+$person-4-color-dark: #74451b;
+$person-4-color-light: #e78619;
+
+$person-5-img-off: '../img/people/person-5-off.png';
+$person-5-img-off-dim: '../img/people/person-5-off-dim.png';
+$person-5-img-on: '../img/people/person-5-on.png';
+$person-5-color-dark: #055e5a;
+$person-5-color-light: #01b9b1;
+
+$person-6-img-off: '../img/people/person-6-off.png';
+$person-6-img-off-dim: '../img/people/person-6-off-dim.png';
+$person-6-img-on: '../img/people/person-6-on.png';
+$person-6-color-dark: #632622;
+$person-6-color-light: #c44a41;
+
+@mixin h1-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 40px;
+  line-height: 48px;
+}
+
+@mixin h2-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 35px;
+  line-height: 40px;
+}
+
+@mixin h3-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 22px;
+  line-height: 26px;
+}
+
+@mixin h4-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin body1-rule {
+  font-family: 'W-Book', 'SourceHanSansCN-Normal';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin body2-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin body3-rule {
+  font-family: 'W-Book', 'SourceHanSansCN-Normal';
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@mixin get-percentage-width($p: 0) {
+  width: ($p * 6);
+}

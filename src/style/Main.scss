@@ -1,0 +1,149 @@
+@import "./_vars.scss";
+
+#main {
+
+  width: 100%;
+  margin-top: 45px;
+  height: 1035px;
+  background-color: #fff;
+
+  #left-column {
+    position: absolute;
+    z-index: 2;
+    padding: 50px;
+    width: 270px;
+    height: 935px;
+    pointer-events: none;
+
+    h1 {
+      p {
+        @include h1-rule;
+      }
+    }
+
+    h2 {
+      padding-bottom: 8px;
+      p {
+        @include h2-rule;
+      }
+
+    }
+
+    p {
+      padding-bottom: 12px;
+      p {
+        @include body1-rule;
+      }
+    }
+
+    #tap-label-1 {
+      p {
+        @include body2-rule;
+      }
+    }
+
+
+    #bottom-container {
+      position: absolute;
+      bottom: 0px;
+      padding-bottom: 50px;
+      p {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 8px;
+        width: 270px;
+      }
+      button {
+        width: 270px;;
+        padding-top: 15px;
+        padding-bottom: 14px;
+        border: 2px solid #000;
+        outline: none;
+        background-color: transparent;
+        pointer-events: all;
+        &:active {
+          opacity: 0.7;
+        }
+        p {
+          @include body2-rule;
+          padding-bottom: 0;
+          width: 270px;
+        }
+      }
+    }
+
+
+
+  }
+
+  #full-width {
+    position: absolute;
+    z-index: 1;
+    width: 1920px;
+    height: 1035px;
+
+    #tap-label-2 {
+      padding-top: 85px;
+      padding-left: 970px;
+      p {
+        @include h1-rule;
+      }
+    }
+
+    #people-container {
+      position: absolute;
+      z-index: 2;
+      right: 0;
+      bottom: 50px;
+      width: 1660px;
+      height: 750px;
+    }
+
+    #persons-container {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      bottom: 0px;
+      width: 1660px;
+      height: 985px;
+
+      #bar-container {
+        position: absolute;
+        bottom: 460px;
+        z-index: 23;
+      }
+
+      #leg-fader {
+        position: absolute;
+        z-index: 99;
+        left: 105px;
+        bottom: 49px;
+        width: 1540px;
+        height: 50px;
+        background:
+        linear-gradient(
+          to bottom,
+          rgba(255,255,255,0) 0%,
+          rgba(255,255,255,.8) 67%,
+          rgba(255,255,255,.92) 80%,
+          rgba(255,255,255,1) 100%,
+        )
+        left
+        bottom
+        transparent
+        no-repeat;
+      }
+
+    }
+
+    #details-container {
+      position: absolute;
+      z-index: 3;
+      bottom: 65px;
+      pointer-events: none;
+    }
+
+  }
+
+
+}

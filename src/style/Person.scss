@@ -1,0 +1,254 @@
+@import "./_vars.scss";
+
+.person-container {
+
+  &.a-person-selected {
+    .person {
+      &#person-0 {
+        &.off {
+          background-image: url($person-0-img-off-dim);
+        }
+      }
+      &#person-1 {
+        &.off {
+          background-image: url($person-1-img-off-dim);
+        }
+      }
+      &#person-2 {
+        &.off {
+          background-image: url($person-2-img-off-dim);
+        }
+      }
+      &#person-3 {
+        &.off {
+          background-image: url($person-3-img-off-dim);
+        }
+      }
+      &#person-4 {
+        &.off {
+          background-image: url($person-4-img-off-dim);
+        }
+      }
+      &#person-5 {
+        &.off {
+          background-image: url($person-5-img-off-dim);
+        }
+      }
+      &#person-6 {
+        &.off {
+          background-image: url($person-6-img-off-dim);
+        }
+      }
+    }
+  }
+
+  .person {
+    position: absolute;
+    z-index: 2;
+    width: 420px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    &.on {
+      z-index: 5;
+      bottom: 50px;
+    }
+    &.off {
+      bottom: 50px;
+    }
+
+    &#person-0 {
+      z-index: 21;
+      left: 40px;
+      &.on {
+        background-image: url($person-0-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-0-img-off);
+        .a-person-selected & {
+          background-image: url($person-0-img-off-dim);
+        }
+      }
+    }
+
+    &#person-1 {
+      z-index: 20;
+      left: 214px;
+      &.on {
+        background-image: url($person-1-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-1-img-off);
+        .a-person-selected & {
+          background-image: url($person-1-img-off-dim);
+        }
+        z-index: 20;
+      }
+    }
+
+    &#person-2 {
+      z-index: 21;
+      left: 444px;
+      &.on {
+        background-image: url($person-2-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-2-img-off);
+        .a-person-selected & {
+          background-image: url($person-2-img-off-dim);
+        }
+      }
+    }
+
+    &#person-3 {
+      z-index: 20;
+      left: 672px;
+      &.on {
+        background-image: url($person-3-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-3-img-off);
+        .a-person-selected & {
+          background-image: url($person-3-img-off-dim);
+        }
+        z-index: 20;
+      }
+    }
+
+    &#person-4 {
+      z-index: 21;
+      left: 928px;
+      &.on {
+        background-image: url($person-4-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-4-img-off);
+        .a-person-selected & {
+          background-image: url($person-4-img-off-dim);
+        }
+      }
+    }
+
+    &#person-5 {
+      z-index: 20;
+      left: 1107px;
+      &.on {
+        background-image: url($person-5-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-5-img-off);
+        .a-person-selected & {
+          background-image: url($person-5-img-off-dim);
+        }
+        z-index: 20;
+      }
+    }
+
+    &#person-6 {
+      z-index: 19;
+      left: 1290px;
+      &.on {
+        background-image: url($person-6-img-on);
+        z-index: 24;
+      }
+      &.off {
+        background-image: url($person-6-img-off);
+        .a-person-selected & {
+          background-image: url($person-6-img-off-dim);
+        }
+        z-index: 19;
+      }
+    }
+
+  }
+
+  .personTab {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    padding: 18px;
+    width: 184px;
+    height: 480px;
+    background-color: #999;
+
+    .label-tab {
+      p {
+        @include h4-rule;
+      }
+    }
+
+    .value-tab {
+      p {
+        @include h3-rule;
+        color: #fff !important;
+      }
+      padding-bottom: 12px;
+    }
+
+    &#person-tab-0 {
+      background-color: $person-0-color-light;
+      left: 105px;
+      .label-tab {
+        p { color: $person-0-color-dark !important; }
+      }
+    }
+
+    &#person-tab-1 {
+      background-color: $person-1-color-light;
+      left: 325px;
+      .label-tab {
+        p { color: $person-1-color-dark !important; }
+      }
+    }
+
+    &#person-tab-2 {
+      background-color: $person-2-color-light;
+      left: 545px;
+      .label-tab {
+        p { color: $person-2-color-dark !important; }
+      }
+    }
+
+    &#person-tab-3 {
+      background-color: $person-3-color-light;
+      left: 765px;
+      .label-tab {
+        p { color: $person-3-color-dark !important; }
+      }
+    }
+
+    &#person-tab-4 {
+      background-color: $person-4-color-light;
+      left: 985px;
+      .label-tab {
+        p { color: $person-4-color-dark !important; }
+      }
+    }
+
+    &#person-tab-5 {
+      background-color: $person-5-color-light;
+      left: 1205px;
+      .label-tab {
+        p { color: $person-5-color-dark !important; }
+      }
+    }
+
+    &#person-tab-6 {
+      background-color: $person-6-color-light;
+      left: 1425px;
+      .label-tab {
+        p { color: $person-6-color-dark !important; }
+      }
+    }
+
+  }
+
+
+}

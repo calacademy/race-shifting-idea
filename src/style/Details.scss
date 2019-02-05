@@ -1,0 +1,189 @@
+@import "./_vars.scss";
+
+.details {
+  overflow: hidden;
+  padding: 8px 8px 4px 8px;
+  width: 840px;
+  //height: 300px;
+  background-color: #f4f4f4;
+  border: 1px solid #d2d2d2;
+
+  &#details-0 {
+    margin-left: 356px;
+    .details-nav > button {
+      background-color: $person-0-color-light;
+      h3 {
+        color: $person-0-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-0-color-dark;
+      p {
+        color: $person-0-color-dark;
+      }
+    }
+  }
+
+  &#details-1 {
+    margin-left: 576px;
+    .details-nav > button {
+      background-color: $person-1-color-light;
+      h3 {
+        color: $person-1-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-1-color-dark;
+      p {
+        color: $person-1-color-dark;
+      }
+    }
+  }
+
+  &#details-2 {
+    margin-left: 796px;
+    .details-nav > button {
+      background-color: $person-2-color-light;
+      h3 {
+        color: $person-2-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-2-color-dark;
+      p {
+        color: $person-2-color-dark;
+      }
+    }
+  }
+
+  &#details-3 {
+    margin-left: 1016px;
+    .details-nav > button {
+      background-color: $person-3-color-light;
+      h3 {
+        color: $person-3-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-3-color-dark;
+      p {
+        color: $person-3-color-dark;
+      }
+    }
+  }
+
+  &#details-4 {
+    margin-left: 1046px;
+    .details-nav > button {
+      background-color: $person-4-color-light;
+      h3 {
+        color: $person-4-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-4-color-dark;
+      p {
+        color: $person-4-color-dark;
+      }
+    }
+  }
+
+  &#details-5 {
+    margin-left: 1046px;
+    .details-nav > button {
+      background-color: $person-5-color-light;
+      h3 {
+        color: $person-5-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-5-color-dark;
+      p {
+        color: $person-5-color-dark;
+      }
+    }
+  }
+
+  &#details-6 {
+    margin-left: 1046px;
+    .details-nav > button {
+      background-color: $person-6-color-light;
+      h3 {
+        color: $person-6-color-dark;
+      }
+    }
+    .details-info > h4,
+    .details-info > h2 {
+      color: $person-6-color-dark;
+      p {
+        color: $person-6-color-dark;
+      }
+    }
+  }
+
+  .details-nav {
+    width: 220px;
+    padding-right: 32px;
+    float: left;
+    button {
+      pointer-events: all;
+      width: 220px;
+      margin-bottom: 4px;
+      padding: 8px;
+      &:active {
+        opacity: 0.7;
+      }
+      &.selected {
+        background-color: transparent !important;
+        h4 {
+          p {
+            color: #000 !important;
+          }
+        }
+      }
+      h3 {
+        text-align: left;
+        @include h3-rule
+      }
+      h4 {
+        p {
+          text-align: left;
+          @include h4-rule
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .details-info {
+    width: 570px;
+    float: left;
+    h4 {
+      p {
+        @include h4-rule
+      }
+    }
+    h2 {
+      padding-bottom: 24px;
+      @include h2-rule
+      p {
+        display: inline !important;
+        @include h2-rule
+      }
+    }
+    p {
+      p {
+        @include body1-rule
+        padding-bottom: 8px;
+      }
+
+    }
+  }
+
+}

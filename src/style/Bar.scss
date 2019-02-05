@@ -1,0 +1,72 @@
+@import "./_vars.scss";
+
+#bar {
+
+  width: 1660px;
+  height: 83px;
+
+  #bar-tab-year {
+    width: 105px;
+    height: 83px;
+    background-color: #f4f4f4;
+    float: left;
+    span {
+      display: block;
+      text-align: center;
+      padding-top: 28px;
+      @include h3-rule;
+    }
+  }
+
+  .bar-tab-person {
+    width: 220px;
+    height: 83px;
+    float: left;
+    p {
+      @include h4-rule
+      text-align: center;
+      height: 83px;
+      margin-left: 18px;
+      margin-right: 18px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  #bar-tab-person-0 {
+    background-color: $person-0-color-light;
+    p { color: $person-0-color-dark !important; }
+  }
+
+  #bar-tab-person-1 {
+    background-color: $person-1-color-light;
+    p { color: $person-1-color-dark !important; }
+  }
+
+  #bar-tab-person-2 {
+    background-color: $person-2-color-light;
+    p { color: $person-2-color-dark !important; }
+  }
+
+  #bar-tab-person-3 {
+    background-color: $person-3-color-light;
+    p { color: $person-3-color-dark !important; }
+  }
+
+  #bar-tab-person-4 {
+    background-color: $person-4-color-light;
+    p { color: $person-4-color-dark !important; }
+  }
+
+  #bar-tab-person-5 {
+    background-color: $person-5-color-light;
+    p { color: $person-5-color-dark !important; }
+  }
+
+  #bar-tab-person-6 {
+    background-color: $person-6-color-light;
+    p { color: $person-6-color-dark !important; }
+  }
+
+}

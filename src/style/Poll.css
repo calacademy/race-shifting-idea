@@ -1,0 +1,204 @@
+/*
+Poll bg #00aeef #b3e7fb
+*/
+#poll {
+  width: 1920px;
+  margin-top: 45px;
+  height: 1035px;
+  background-color: #fff; }
+  #poll #poll-frame {
+    position: absolute;
+    right: 100px;
+    top: 90px;
+    width: 1720px;
+    height: 935px;
+    box-shadow: 0 0 25px #666; }
+    #poll #poll-frame button#poll-button-close {
+      position: absolute;
+      top: 32px;
+      right: 32px;
+      width: 62px;
+      height: 62px;
+      background-image: url("../img/poll-close-btn.svg");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-color: #fff; }
+      #poll #poll-frame button#poll-button-close:active {
+        opacity: 0.7; }
+    #poll #poll-frame .poll-column {
+      position: absolute;
+      top: 32px;
+      height: 870px; }
+    #poll #poll-frame #poll-column-left {
+      left: 32px;
+      width: 398px; }
+      #poll #poll-frame #poll-column-left h1 {
+        padding-bottom: 14px; }
+        #poll #poll-frame #poll-column-left h1 p {
+          font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+          font-size: 16px;
+          line-height: 19px; }
+      #poll #poll-frame #poll-column-left h2 {
+        padding-bottom: 20px; }
+        #poll #poll-frame #poll-column-left h2 p {
+          font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+          font-size: 35px;
+          line-height: 40px; }
+      #poll #poll-frame #poll-column-left p p {
+        font-family: 'W-Book', 'SourceHanSansCN-Normal';
+        font-size: 16px;
+        line-height: 19px; }
+      #poll #poll-frame #poll-column-left #poll-image {
+        position: absolute;
+        bottom: 0;
+        background-image: url("../img/poll.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        width: 398px;
+        height: 398px; }
+    #poll #poll-frame #poll-column-right {
+      left: 448px;
+      width: 1160px; }
+      #poll #poll-frame #poll-column-right #poll-options-footer {
+        position: absolute;
+        bottom: 0;
+        left: 370px;
+        width: 835px; }
+        #poll #poll-frame #poll-column-right #poll-options-footer #poll-total-results {
+          font-family: 'W-Book', 'SourceHanSansCN-Normal';
+          font-size: 14px;
+          line-height: 16px;
+          color: #959595; }
+          #poll #poll-frame #poll-column-right #poll-options-footer #poll-total-results p {
+            display: inline;
+            font-family: 'W-Book', 'SourceHanSansCN-Normal';
+            font-size: 14px;
+            line-height: 16px;
+            color: #959595; }
+        #poll #poll-frame #poll-column-right #poll-options-footer button#poll-button-submit {
+          min-width: 364px;
+          padding-top: 15px;
+          padding-bottom: 14px;
+          border: 2px solid #000;
+          outline: none;
+          background-color: transparent;
+          pointer-events: all; }
+          #poll #poll-frame #poll-column-right #poll-options-footer button#poll-button-submit:active {
+            opacity: 0.7; }
+          #poll #poll-frame #poll-column-right #poll-options-footer button#poll-button-submit.off {
+            opacity: 0.2; }
+          #poll #poll-frame #poll-column-right #poll-options-footer button#poll-button-submit p {
+            font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+            font-size: 16px;
+            line-height: 19px;
+            padding-bottom: 0;
+            width: 364px; }
+      #poll #poll-frame #poll-column-right #poll-options-header {
+        width: 835px;
+        margin-left: 305px; }
+        #poll #poll-frame #poll-column-right #poll-options-header h1 {
+          padding-bottom: 10px; }
+          #poll #poll-frame #poll-column-right #poll-options-header h1 p {
+            font-family: 'W-Book', 'SourceHanSansCN-Normal';
+            font-size: 16px;
+            line-height: 19px; }
+        #poll #poll-frame #poll-column-right #poll-options-header h2 {
+          padding-bottom: 36px; }
+          #poll #poll-frame #poll-column-right #poll-options-header h2 p {
+            font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+            font-size: 35px;
+            line-height: 40px; }
+      #poll #poll-frame #poll-column-right #poll-options {
+        width: 1140px; }
+        #poll #poll-frame #poll-column-right #poll-options .poll-option {
+          display: flex;
+          padding-bottom: 40px; }
+          #poll #poll-frame #poll-column-right #poll-options .poll-option .poll-result {
+            display: none;
+            position: absolute;
+            width: 140px;
+            margin-left: 160px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .poll-result h1 {
+              font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+              font-size: 40px;
+              line-height: 48px;
+              padding-bottom: 4px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .poll-result h2 {
+              font-family: 'W-Book', 'SourceHanSansCN-Normal';
+              font-size: 14px;
+              line-height: 16px;
+              color: #959595; }
+              #poll #poll-frame #poll-column-right #poll-options .poll-option .poll-result h2 p {
+                display: inline;
+                color: #959595; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .poll-result.show {
+              display: block; }
+          #poll #poll-frame #poll-column-right #poll-options .poll-option .pro-and-con {
+            margin-top: -20px;
+            position: absolute;
+            width: 254px;
+            background-color: #00aeef;
+            padding: 4px 18px 18px 18px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .pro-and-con .pro-con-tail {
+              position: absolute;
+              margin-left: 260px;
+              margin-top: 20px;
+              width: 0;
+              height: 0;
+              border-top: 20px solid transparent;
+              border-left: 20px solid #00aeef;
+              border-bottom: 20px solid transparent; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .pro-and-con h1 {
+              font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+              font-size: 16px;
+              line-height: 19px;
+              color: #fff;
+              padding-top: 10px;
+              padding-bottom: 0; }
+              #poll #poll-frame #poll-column-right #poll-options .poll-option .pro-and-con h1 p {
+                display: inline;
+                font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+                font-size: 16px;
+                line-height: 19px;
+                color: #fff; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .pro-and-con p p {
+              font-family: 'W-Book', 'SourceHanSansCN-Normal';
+              font-size: 16px;
+              line-height: 19px;
+              color: #fff; }
+          #poll #poll-frame #poll-column-right #poll-options .poll-option .checkbox {
+            width: 50px;
+            margin-left: 305px;
+            height: 46px;
+            background-image: url("../img/poll-checkbox-off.svg");
+            background-repeat: no-repeat;
+            background-position: 0 0; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .checkbox.on {
+              background-image: url("../img/poll-checkbox-on.svg"); }
+          #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text {
+            width: 774px;
+            margin-left: 18px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text .option-label {
+              padding-bottom: 8px;
+              font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+              font-size: 22px;
+              line-height: 26px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text .answer {
+              padding-bottom: 8px;
+              font-family: 'W-Book', 'SourceHanSansCN-Normal';
+              font-size: 16px;
+              line-height: 19px; }
+            #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text .poll-bar {
+              width: 768px; }
+              #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text .poll-bar .poll-bar-sec {
+                float: left;
+                width: 190px;
+                height: 20px;
+                margin-right: 2px;
+                background-color: #b3e7fb; }
+              #poll #poll-frame #poll-column-right #poll-options .poll-option .option-text .poll-bar .poll-bar-fill {
+                position: absolute;
+                z-index: 0;
+                width: 0;
+                height: 20px;
+                background-color: #00aeef; }

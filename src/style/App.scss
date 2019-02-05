@@ -1,0 +1,57 @@
+@import "./_vars.scss";
+
+#app {
+
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  color: #000;
+
+  #container-loader {
+    width: 1920px;
+    height: 1080px;
+    background-color: #000;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #container-translator {
+    width: 1920px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    background-color: #000;
+  }
+
+  #container-credits {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    background-color: #000;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.4s $easing;
+    &.hide-anim {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0.5s, opacity 0.4s $easing;
+    }
+  }
+
+  #container-main {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .hide {
+    display: none;
+  }
+
+}
