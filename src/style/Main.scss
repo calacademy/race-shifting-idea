@@ -90,6 +90,13 @@
       }
     }
 
+    #pseudo-bar-container {
+      position: absolute;
+      z-index: 99;
+      right: 15px;
+      top: 532px;
+    }
+
     #people-container {
       position: absolute;
       z-index: 2;

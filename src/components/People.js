@@ -14,6 +14,8 @@ class People extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     if ((prevProps.activePerson !== this.props.activePerson) && (this.props.activePerson !== null)) {
+      this._hideAllPersonDeselectMasks()
+      this._showAllPersonSelectMasks()
       this._showActivePersonDeselectMask()
       this._hideActivePersonSelectMask()
     } else if ((prevProps.activePerson !== this.props.activePerson) && (this.props.activePerson === null)) {
@@ -30,30 +32,7 @@ class People extends Component {
       let svgPaths = svgDoc.getElementsByClassName("click-path")
       for (let i=0; i < svgPaths.length; i++) {
         svgPaths[i].addEventListener("mousedown", function() {
-          let x = i
-          switch(i) {
-            case 0:
-              x = 6
-              break
-            case 1:
-              x = 1
-              break
-            case 2:
-              x = 3
-              break
-            case 3:
-              x = 5
-              break
-            case 4:
-              x = 0
-              break
-            case 5:
-              x = 2
-              break
-            case 6:
-              x = 4
-              break
-          }
+          let x = _this._getShiftId(i)
           _this._hideAllPersonDeselectMasks()
           _this.props.handlerSelectPerson(x)
           _this._showAllOtherPersonSelectMasks(x)
@@ -70,30 +49,7 @@ class People extends Component {
       let svgPaths = svgDoc.getElementsByClassName("unclick-path")
       for (let i=0; i < svgPaths.length; i++) {
         svgPaths[i].addEventListener("mousedown", function() {
-          let x = i
-          switch(i) {
-            case 0:
-              x = 6
-              break
-            case 1:
-              x = 1
-              break
-            case 2:
-              x = 3
-              break
-            case 3:
-              x = 5
-              break
-            case 4:
-              x = 0
-              break
-            case 5:
-              x = 2
-              break
-            case 6:
-              x = 4
-              break
-          }
+          let x = _this._getShiftId(i)
           _this.props.handlerDeselectPerson(x)
           _this._hidePersonDeselectMask(x)
           _this._showPersonSelectMask(x)
@@ -135,30 +91,58 @@ class People extends Component {
   }
 
   _showAllOtherPersonSelectMasks(p) {
+    const _this = this
     let mask = document.getElementById("object-people-mask")
     let svgDoc = mask.contentDocument
     let svgPaths = svgDoc.getElementsByClassName("click-path")
     for (let i=0; i < svgPaths.length; i++) {
-      if (i !== p) {
+      let x = _this._getShiftId(i)
+      if (x !== p) {
         svgPaths[i].style.display = 'inline'
       }
     }
   }
 
   _showActivePersonDeselectMask() {
-    const _this = this
     let mask = document.getElementById("object-people-mask")
     let svgDoc = mask.contentDocument
-    let svgPath = svgDoc.getElementById("svg-person-" + _this.props.activePerson + "-on")
+    let svgPath = svgDoc.getElementById("svg-person-" + this.props.activePerson + "-on")
     svgPath.style.display = 'inline'
   }
 
   _hideActivePersonSelectMask() {
-    const _this = this
     let mask = document.getElementById("object-people-mask")
     let svgDoc = mask.contentDocument
-    let svgPath = svgDoc.getElementById("svg-person-" + _this.props.activePerson + "-off")
+    let svgPath = svgDoc.getElementById("svg-person-" + this.props.activePerson + "-off")
     svgPath.style.display = 'none'
+  }
+
+  _getShiftId(i) {
+    let x = i
+    switch(i) {
+      case 0:
+        x = 6
+        break
+      case 1:
+        x = 1
+        break
+      case 2:
+        x = 3
+        break
+      case 3:
+        x = 5
+        break
+      case 4:
+        x = 0
+        break
+      case 5:
+        x = 2
+        break
+      case 6:
+        x = 4
+        break
+    }
+    return x
   }
 
   render() {

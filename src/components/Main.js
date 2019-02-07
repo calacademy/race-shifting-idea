@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import People from './People'
 import Person from './Person'
 import Bar from './Bar'
+import PseudoBar from './PseudoBar'
 import Details from './Details'
 import '../style/Main.css'
 
@@ -81,6 +82,14 @@ class Main extends Component {
             dangerouslySetInnerHTML={markupBasicsTapLabel}
             className={this.props.activePerson !== null ? 'hide' : 'show'}
           />
+          <div
+            id="pseudo-bar-container"
+            className={this.props.activePerson === null ? 'hide' : 'show'}
+            >
+            <PseudoBar
+              handlerSelectPerson={this.props.handlerSelectPerson}
+            />
+          </div>
           <div id="people-container">
             <People
               activePerson={this.props.activePerson}
