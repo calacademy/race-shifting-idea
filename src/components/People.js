@@ -150,7 +150,7 @@ class People extends Component {
       <div id="people">
         <object
           id="object-people-mask"
-          data={"../img/people/people.svg"}
+          data={"./img/people/people.svg"}
           type="image/svg+xml"
           >
           object placeholder text
