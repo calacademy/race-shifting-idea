@@ -24,7 +24,6 @@ class App extends Component {
       dataReady: false,
       dataCredits: null,
       currentLanguage: 'en', // en || es || zh || tl
-      actionTranslate: null,
       inactivityInt: 45000,
       dateLastTouch: null,
       activePerson: null,
@@ -443,7 +442,6 @@ class App extends Component {
     e.preventDefault()
     this.setState({
       currentLanguage: lang,
-      actionTranslate: true,
       dateLastTouch: new Date()
     })
   }
