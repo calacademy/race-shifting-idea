@@ -141,6 +141,8 @@ class People extends Component {
       case 6:
         x = 4
         break
+      default:
+        break
     }
     return x
   }

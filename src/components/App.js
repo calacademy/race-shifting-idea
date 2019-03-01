@@ -181,7 +181,7 @@ class App extends Component {
 
   _getData() {
     const _this = this
-    fetchJsonp(process.env.REACT_APP_REST_URL_TEXT)
+    fetchJsonp(process.env.REACT_APP_REST_URL_TEXT, { timeout: 10000, })
     //fetch("/dev-data/data.json")
     .then((response) => {
       return response.json()
