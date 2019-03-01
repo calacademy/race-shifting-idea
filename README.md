@@ -13,7 +13,7 @@ $ cd race-shifting-idea
 $ yarn
 ```
 
-Find .env files in team Google Drive:
+Find .env files and fonts.zip in team Google Drive:
 ```
 +-- DME: Web & Interactive
 |   +-- Exhibit Interactives
@@ -24,26 +24,30 @@ Find .env files in team Google Drive:
 
 Copy .env files into root of local race-shifting-idea project
 
-## Build Notes
+Contents of fonts.zip (a “fonts” directory), should be added to project's “src”
+directory.
 
-### .env.production variable for webpack module bundler build
-The URL for the events data feed is saved as global REACT_APP_EVENTS_REST_URL
-variable expected by webpack prod distribution builds. The variable is
-saved in local .env.production file in project root and excluded from repo.
+## Development and Build Notes
 
-## Development and Production Builds
+### .env variables for webpack module bundler build
+URLs for live CMS data sources are saved as global REACT_APP_... environment
+variables defined in project root .env.development and .env.production files.
+Webpack hot-loads development variables on update in local development
+environment and injects production variables into production distribution
+codebase on build.
 
-Webpack build init scripts in package.json. Webpack config for 'start' script
-automatically rebuilds to '/build' on src edit. Run local webserver on /build
-dir for dev work (browser auto-refresh in place). While 'start' script is
-running, Webpack will use development variable in .env.development file (see
-  above). Stop 'start' script and run 'build' script to build app to /build
-  using production variable in .env.production file (prior to deployment).
-
+### Development
 ```
 yarn start
+```
+Webpack auto-launches Chrome browser at localhost:3000 and hot-loads all source
+file updates.
+
+### Production Build
+```
 yarn build
 ```
+Webpack builds optimized distribution code to /build directory.
 
 ## Deploy Notes
 
