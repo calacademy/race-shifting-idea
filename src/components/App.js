@@ -25,7 +25,7 @@ class App extends Component {
       dataCredits: null,
       currentLanguage: 'en', // en || es || zh || tl
       actionTranslate: null,
-      inactivityInt: 4445000,
+      inactivityInt: 45000,
       dateLastTouch: null,
       activePerson: null,
       activePersonSwitch: 'off', // off || on
@@ -162,8 +162,8 @@ class App extends Component {
 
   _getDataCredits() {
     var _this = this
-    //fetchJsonp(process.env.REACT_APP_REST_URL_CREDITS)
-    fetch("/dev-data/dataCredits.json")
+    fetchJsonp(process.env.REACT_APP_REST_URL_CREDITS)
+    //fetch("/dev-data/dataCredits.json")
     .then((response) => {
       return response.json()
     }).then((data) => {
@@ -171,7 +171,7 @@ class App extends Component {
         dataCredits: data
       })
     }).catch((ex) => {
-      console.log('JSON data fetch failed: fetching again in 30 seconds', ex)
+      console.log('JSON data credits fetch failed: fetching again in 30 seconds', ex)
       // try again in 30 sec
       setTimeout(() => {
        _this._getDataCredits()
@@ -181,8 +181,8 @@ class App extends Component {
 
   _getData() {
     const _this = this
-    //fetchJsonp(process.env.REACT_APP_REST_URL_TEXT)
-    fetch("/dev-data/data.json")
+    fetchJsonp(process.env.REACT_APP_REST_URL_TEXT)
+    //fetch("/dev-data/data.json")
     .then((response) => {
       return response.json()
     }).then((data) => {
@@ -191,7 +191,7 @@ class App extends Component {
       })
       _this._prepareData()
     }).catch((ex) => {
-      console.log('JSON data fetch failed: fetching again in 30 seconds', ex)
+      console.log('JSON data text fetch failed: fetching again in 30 seconds', ex)
       // try again in 30 sec
       setTimeout(() => {
        _this._getData()
