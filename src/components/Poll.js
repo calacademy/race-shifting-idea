@@ -211,7 +211,7 @@ class Poll extends Component {
         markupCon = {__html: this.props.parsedDataPollOptions[i].con[0][this.props.language]['#markup']}
 
         markupResultPercentage = {__html: this.state.results[i].percentage + '%'}
-        markupResultCount = {__html: this.state.results[i].count + ' ' + this.props.parsedDataPoll.responsesLabel[0][this.props.language]['#markup']}
+        markupResultCount = {__html: this.props.parsedDataPoll.responsesLabel[0][this.props.language]['#markup'] + ': ' + this.state.results[i].count}
 
         let barStyle = { width: this.state.results[i].percentage * 7.65 }
 
