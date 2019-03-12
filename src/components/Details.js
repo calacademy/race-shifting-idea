@@ -8,19 +8,6 @@ class Details extends Component {
     }
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (this.props !== prevProps) {
-      if ((this.props.dataReady) && (this.props.activePerson !== null)) {
-        this._getDetailsElementHeight()
-      }
-    }
-  }
-
-  _getDetailsElementHeight() {
-    // let d = document.getElementById("details-container")
-    // this.props.handlerDetailsHeight(d.offsetHeight)
-  }
-
   render() {
 
     let markupBtnLabel2000 = {__html: ''}

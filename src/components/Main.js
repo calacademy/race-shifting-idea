@@ -11,14 +11,6 @@ class Main extends Component {
     super(props)
     this.state = {
     }
-
-    // Details handler
-    this.handlerDetailsHeight = this._detailsHeight.bind(this)
-  }
-
-  _detailsHeight(h) {
-    let b = document.getElementById("bar-container")
-    b.style.bottom = (h + 97) + 'px'
   }
 
   render() {
