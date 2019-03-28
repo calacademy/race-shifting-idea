@@ -22,9 +22,11 @@ Find .env files and fonts.zip in team Google Drive:
 |   |   |   |   +-- Technical
 ```
 
-Copy .env files into root of local race-shifting-idea project
+Copy .env files into root of local project.
 
-Contents of fonts.zip (a “fonts” directory), should be added to project's “src”
+Copy contents of fonts.zip (a “fonts” directory) to project's “/src” directory.
+
+Copy contents of people.zip (a “people” directory) to project's “/src/img/”
 directory.
 
 ## Development and Build Notes
