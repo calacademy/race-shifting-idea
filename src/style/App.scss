@@ -16,12 +16,21 @@
     overflow: hidden;
   }
 
+  #container-attract {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    background-color: #000;
+  }
+
   #container-translator {
     width: 1920px;
     height: 45px;
     overflow: hidden;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     background-color: #000;
   }
 

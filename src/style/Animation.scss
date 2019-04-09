@@ -1,0 +1,33 @@
+.animation {
+
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+
+  #container-images {
+    position: absolute;
+    height: 1080px;
+    float: left;
+    left: 0px;
+
+    img {
+      width: 1920px;
+      height: 1080px;
+      border: none;
+      display: block !important;
+      float: left;
+    }
+
+    &.attract-animation {
+      width: 3452160px;
+      animation: play-attract 64s steps(1798) infinite;
+    }
+
+  }
+
+}
+
+@keyframes play-attract {
+  from { left: 0; }
+  to   { left: -3452160px; }
+}

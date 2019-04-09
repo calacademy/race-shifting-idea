@@ -5,13 +5,14 @@ import Translator from './Translator'
 import Credits from './Credits'
 import Main from './Main'
 import Poll from './Poll'
+import Attract from './Attract'
 import fetchJsonp from 'fetch-jsonp'
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      display: 'loader', // loader || main || poll || credits
+      display: 'loader', // loader || main || poll || credits || attract
       data: null,
       parsedDataBasics: null,
       parsedDataPersons: [{},{},{},{},{},{},{}], // assumes 7 people
@@ -30,6 +31,9 @@ class App extends Component {
       activePersonSwitch: 'off', // off || on
       currentYear: null
     }
+
+    // Attract handler
+    this.handlerCloseAttract = this._closeAttract.bind(this)
 
     // Loader handler
     this.handlerLoadComplete = this._loadComplete.bind(this)
@@ -149,7 +153,7 @@ class App extends Component {
       if ((this.state.dateLastTouch < check) && (this.state.dataReady)) {
         this.setState({
           currentLanguage: 'en',
-          display: 'main',
+          display: 'attract',
           dateLastTouch: null,
           currentYear: null,
           activePersonSwitch: 'off',
@@ -462,6 +466,13 @@ class App extends Component {
     })
   }
 
+  _closeAttract() {
+    this.setState({
+      display: 'main',
+      dateLastTouch: new Date()
+    })
+  }
+
   componentDidMount() {
     this._getData()
     this._getDataCredits()
@@ -543,6 +554,15 @@ class App extends Component {
             handlerOpenPoll={this.handlerOpenPoll}
           />
         </div>
+
+        <div id="container-attract"
+          className={this.state.display !== 'attract' ? 'hide' : ''}>
+          <Attract
+            dataReady={this.state.dataReady}
+            handlerCloseAttract={this.handlerCloseAttract}
+          />
+        </div>
+
       </div>
     )
   }
