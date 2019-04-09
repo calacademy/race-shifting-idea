@@ -226,7 +226,7 @@ class App extends Component {
     })
 
     // verify some data properties
-    const requiredBasicsItemCount = 8
+    const requiredBasicsItemCount = 10
     const requiredPollItemCount = 11
     const requiredPollOptionCount = 4
     const requiredPersonCount = 7
