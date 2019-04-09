@@ -437,8 +437,10 @@ class App extends Component {
   // Loader method
   _loadComplete() {
     this.setState({
-      display: 'main'
+      display: 'main',
+      dateLastTouch: new Date()
     })
+    setInterval(() => this._inactivityCheck(), 5000)
   }
 
   // Translator methods
@@ -476,10 +478,6 @@ class App extends Component {
   componentDidMount() {
     this._getData()
     this._getDataCredits()
-    this.setState({
-      dateLastTouch: new Date()
-    })
-    setInterval(() => this._inactivityCheck(), 5000)
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -501,7 +499,7 @@ class App extends Component {
     return (
       <div id="app">
         <div id="container-loader"
-          className={this.state.display !== 'loader' ? 'hide' : ''}>
+          className={this.state.display === 'loader' ? 'show' : ''}>
           <Loader
             // needs to verify all data
             dataReady={this.state.dataReady}
@@ -509,7 +507,7 @@ class App extends Component {
           />
         </div>
         <div id="container-translator"
-          className={this.state.display === 'loader' ? 'hide' : ''}>
+          className={this.state.display === 'loader' ? '' : 'show'}>
           <Translator
             language={this.state.currentLanguage}
             handlerSelectLanguage={this.handlerSelectLanguage}
@@ -517,8 +515,15 @@ class App extends Component {
             display={this.state.display}
            />
         </div>
+        <div id="container-attract"
+          className={this.state.display === 'attract' ? 'show' : ''}>
+          <Attract
+            dataReady={this.state.dataReady}
+            handlerCloseAttract={this.handlerCloseAttract}
+          />
+        </div>
         <div id="container-credits"
-          className={this.state.display !== 'credits' ? 'hide-anim' : ''}>
+          className={this.state.display === 'credits' ? 'show' : ''}>
           <Credits
             display={this.state.display}
             dataCredits={this.state.dataCredits}
@@ -526,7 +531,6 @@ class App extends Component {
             language={this.state.currentLanguage}
            />
         </div>
-
         <div id="container-poll"
           className={this.state.display !== 'poll' ? 'hide' : ''}>
           <Poll
@@ -537,9 +541,8 @@ class App extends Component {
             handlerClosePoll={this.handlerClosePoll}
            />
         </div>
-
         <div id="container-main"
-          className={this.state.display !== 'main' ? 'hide' : ''}>
+          className={this.state.display === 'main' ? 'show' : ''}>
           <Main
             parsedDataBasics={this.state.parsedDataBasics}
             parsedDataPersons={this.state.parsedDataPersons}
@@ -554,15 +557,6 @@ class App extends Component {
             handlerOpenPoll={this.handlerOpenPoll}
           />
         </div>
-
-        <div id="container-attract"
-          className={this.state.display !== 'attract' ? 'hide' : ''}>
-          <Attract
-            dataReady={this.state.dataReady}
-            handlerCloseAttract={this.handlerCloseAttract}
-          />
-        </div>
-
       </div>
     )
   }

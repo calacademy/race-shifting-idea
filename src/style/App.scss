@@ -14,6 +14,7 @@
     position: absolute;
     z-index: 1;
     overflow: hidden;
+    display: none;
   }
 
   #container-attract {
@@ -23,6 +24,7 @@
     position: absolute;
     z-index: 2;
     background-color: #000;
+    display: none;
   }
 
   #container-translator {
@@ -32,6 +34,7 @@
     position: absolute;
     z-index: 3;
     background-color: #000;
+    display: none;
   }
 
   #container-credits {
@@ -41,14 +44,7 @@
     position: absolute;
     z-index: 999;
     background-color: #000;
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0.5s, opacity 0.4s $easing;
-    &.hide-anim {
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 0.5s, opacity 0.4s $easing;
-    }
+    display: none;
   }
 
   #container-main {
@@ -57,10 +53,14 @@
     overflow: hidden;
     position: absolute;
     z-index: 1;
+    display: none;
   }
 
   .hide {
     display: none;
+  }
+  .show {
+    display: block !important;
   }
 
 }
