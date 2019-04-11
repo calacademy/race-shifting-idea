@@ -1,3 +1,5 @@
+@import "./_vars.scss";
+
 #attract {
 
   .container-animation {
@@ -6,6 +8,45 @@
     width: 1920px;
     height: 1080px;
     overflow: hidden;
+  }
+
+  .attract-text-container {
+    position: absolute;
+    z-index: 2;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    pointer-events:auto;
+    display: flex;
+    justify-content: center;
+    h1 {
+      p {
+        @include attract-h1-rule;
+        margin-top: 90px;
+        color: #fff;
+      }
+    }
+
+    button {
+      position: absolute;
+      bottom: 100px;
+      padding-top: 15px;
+      padding-bottom: 14px;
+      padding-left: 60px;
+      padding-right: 60px;
+      outline: none;
+      background-color: #fff;
+      pointer-events: all;
+      &:active {
+        opacity: 0.7;
+      }
+      p {
+        width: 100%;
+        @include attract-cta-rule;
+        padding-bottom: 0;
+      }
+    }
+
   }
 
 }

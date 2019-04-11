@@ -55,6 +55,17 @@ $person-6-img-on: '../img/people/person-6-on.png';
 $person-6-color-dark: #75272e;
 $person-6-color-light: #ea4e5c;
 
+@mixin attract-h1-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 78px;
+  line-height: 78px;
+}
+@mixin attract-cta-rule {
+  font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+  font-size: 22px;
+  line-height: 26px;
+}
+
 @mixin h1-rule {
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 40px;

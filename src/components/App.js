@@ -256,7 +256,9 @@ class App extends Component {
       ['poll-button-label', 'pollButtonLabel'],
       ['person-name-label', 'personNameLabel'],
       ['person-identity-label', 'personIdentityLabel'],
-      ['person-info-eyebrow-label', 'personInfoEyebrowLabel']
+      ['person-info-eyebrow-label', 'personInfoEyebrowLabel'],
+      ['attract-header', 'attractHeader'],
+      ['attract-cta', 'attractCta']
     ]
 
     let itemsProcessedBasics = 0
@@ -518,6 +520,8 @@ class App extends Component {
         <div id="container-attract"
           className={this.state.display === 'attract' ? 'show' : ''}>
           <Attract
+            parsedDataBasics={this.state.parsedDataBasics}
+            language={this._getLanguageName(this.state.currentLanguage)}
             dataReady={this.state.dataReady}
             handlerCloseAttract={this.handlerCloseAttract}
           />
