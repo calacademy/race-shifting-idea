@@ -23,12 +23,12 @@ class Translator extends Component {
           className={this.props.display === 'credits' ? 'credits active' : 'credits'}
           onTouchEnd={(e) => this.props.handlerOpenCredits(e)}
           onClick={(e) => this.props.handlerOpenCredits(e)}
-          ><span>credits</span></button>
+          ><span>Credits</span></button>
         <button
           className={this.state.currentLanguage === 'tl' ? 'active' : ''}
           onTouchEnd={(e) => this.props.handlerSelectLanguage(e, 'tl')}
           onClick={(e) => this.props.handlerSelectLanguage(e, 'tl')}
-          ><span>filipino</span></button>
+          ><span>Filipino</span></button>
         <button
           className={this.state.currentLanguage === 'zh' ? 'active' : ''}
           onTouchEnd={(e) => this.props.handlerSelectLanguage(e, 'zh')}
@@ -38,12 +38,12 @@ class Translator extends Component {
           className={this.state.currentLanguage === 'es' ? 'active' : ''}
           onTouchEnd={(e) => this.props.handlerSelectLanguage(e, 'es')}
           onClick={(e) => this.props.handlerSelectLanguage(e, 'es')}
-          ><span>español</span></button>
+          ><span>Español</span></button>
         <button
           className={this.state.currentLanguage === 'en' ? 'active' : ''}
           onTouchEnd={(e) => this.props.handlerSelectLanguage(e, 'en')}
           onClick={(e) => this.props.handlerSelectLanguage(e, 'en')}
-          ><span>english</span></button>
+          ><span>English</span></button>
       </div>
     )
   }
