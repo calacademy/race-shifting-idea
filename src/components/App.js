@@ -54,10 +54,17 @@ class App extends Component {
 
     // Main Poll Button handler
     this.handlerOpenPoll = this._openPoll.bind(this)
-
     // Poll Button handler
     this.handlerClosePoll = this._closePoll.bind(this)
+    // Poll interaction handler
+    this.handlerInteractPoll = this._interactPoll.bind(this)
 
+  }
+
+  _interactPoll() {
+    this.setState({
+      dateLastTouch: new Date()
+    })
   }
 
   _closePoll() {
@@ -226,7 +233,7 @@ class App extends Component {
     })
 
     // verify some data properties
-    const requiredBasicsItemCount = 10
+    const requiredBasicsItemCount = 15
     const requiredPollItemCount = 11
     const requiredPollOptionCount = 4
     const requiredPersonCount = 7
@@ -258,7 +265,12 @@ class App extends Component {
       ['person-identity-label', 'personIdentityLabel'],
       ['person-info-eyebrow-label', 'personInfoEyebrowLabel'],
       ['attract-header', 'attractHeader'],
-      ['attract-cta', 'attractCta']
+      ['attract-cta', 'attractCta'],
+      ['2000-button-header', 'buttonHeader2000'],
+      ['1960-button-header', 'buttonHeader1960'],
+      ['1930-button-header', 'buttonHeader1930'],
+      ['1870-button-header', 'buttonHeader1870'],
+      ['1790-button-header', 'buttonHeader1790']
     ]
 
     let itemsProcessedBasics = 0
@@ -543,6 +555,7 @@ class App extends Component {
             dataReady={this.state.dataReady}
             language={this._getLanguageName(this.state.currentLanguage)}
             handlerClosePoll={this.handlerClosePoll}
+            handlerInteractPoll={this.handlerInteractPoll}
            />
         </div>
         <div id="container-main"

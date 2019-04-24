@@ -49,6 +49,7 @@ class Poll extends Component {
         results: r,
         total: t
       })
+      this.props.handlerInteractPoll()
     }
   }
 
@@ -139,6 +140,7 @@ class Poll extends Component {
       this.setState({
         option: i
       })
+      this.props.handlerInteractPoll()
     }
   }
 
