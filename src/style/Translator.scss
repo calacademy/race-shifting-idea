@@ -19,7 +19,7 @@
     font-size: 21px;
     line-height: 21px;
     font-weight: normal;
-    letter-spacing: 1.25px;
+    //letter-spacing: 1.25px;
     color: #fff;
     span {
       font-family: 'W-Medium', 'SourceHanSansCN-Medium';
@@ -52,8 +52,9 @@
 
     &.active {
       span {
-        font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
+        //font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
         color: $orange;
+        font-weight: bold;
       }
     }
 
