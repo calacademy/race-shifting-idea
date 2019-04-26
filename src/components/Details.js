@@ -49,10 +49,10 @@ class Details extends Component {
         markupHdrLabel = {__html:  this.props.currentYear + ': ' + this.props.parsedDataPersons[this.props.activePerson]['headerLabel' + this.props.currentYear +''][0][this.props.language]['#markup']}
         markupInfo = {__html:  this.props.parsedDataPersons[this.props.activePerson]['info' + this.props.currentYear +''][0][this.props.language]['#markup']}
         markupBtnHeader2000 = {__html: this.props.parsedDataBasics.buttonHeader2000[0][this.props.language]['#markup']}
-        markupBtnHeader1960 = {__html: this.props.parsedDataBasics.buttonHeader2000[0][this.props.language]['#markup']}
-        markupBtnHeader1930 = {__html: this.props.parsedDataBasics.buttonHeader2000[0][this.props.language]['#markup']}
-        markupBtnHeader1870 = {__html: this.props.parsedDataBasics.buttonHeader2000[0][this.props.language]['#markup']}
-        markupBtnHeader1790 = {__html: this.props.parsedDataBasics.buttonHeader2000[0][this.props.language]['#markup']}
+        markupBtnHeader1960 = {__html: this.props.parsedDataBasics.buttonHeader1960[0][this.props.language]['#markup']}
+        markupBtnHeader1930 = {__html: this.props.parsedDataBasics.buttonHeader1930[0][this.props.language]['#markup']}
+        markupBtnHeader1870 = {__html: this.props.parsedDataBasics.buttonHeader1870[0][this.props.language]['#markup']}
+        markupBtnHeader1790 = {__html: this.props.parsedDataBasics.buttonHeader1790[0][this.props.language]['#markup']}
       }
 
     }
