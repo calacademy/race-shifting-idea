@@ -87,7 +87,8 @@ class App extends Component {
   _selectYear(e, y) {
     e.preventDefault()
     this.setState({
-      currentYear: y
+      currentYear: y,
+      dateLastTouch: new Date(),
     })
   }
 
