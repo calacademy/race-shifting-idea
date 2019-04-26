@@ -44,6 +44,7 @@ class App extends Component {
 
     // Credits handlers
     this.handlerCloseCredits = this._closeCredits.bind(this)
+    this.handlerScrollCredits = this._scrollCredits.bind(this)
 
     // Person object SVG hanlder
     this.handlerSelectPerson = this._selectPerson.bind(this)
@@ -482,6 +483,11 @@ class App extends Component {
       dateLastTouch: new Date()
     })
   }
+  _scrollCredits() {
+    this.setState({
+      dateLastTouch: new Date()
+    })
+  }
 
   _closeAttract() {
     this.setState({
@@ -545,6 +551,7 @@ class App extends Component {
             display={this.state.display}
             dataCredits={this.state.dataCredits}
             handlerCloseCredits={this.handlerCloseCredits}
+            handlerScrollCredits={this.handlerScrollCredits}
             language={this.state.currentLanguage}
            />
         </div>

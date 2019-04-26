@@ -7,6 +7,9 @@ $light-gray: #959595;
 $light-blue: #b3e7fb;
 $dark-blue: #00aeef;
 
+$credits-light-gray: #929497;
+$credits-dark-gray: #404040;
+
 /*
 Poll bg #00aeef #b3e7fb
 */
@@ -64,6 +67,24 @@ $person-6-color-light: #ea4e5c;
   font-family: 'W-Semibold', 'SourceHanSansCN-Bold';
   font-size: 22px;
   line-height: 26px;
+}
+
+@mixin credits-h1-rule {
+  font-family: 'W-Semibold';
+  font-size: 56px;
+  line-height: 56px;
+}
+
+@mixin credits-h2-rule {
+  font-family: 'W-Book';
+  font-size: 30px;
+  line-height: 36px;
+}
+
+@mixin credits-p-rule {
+  font-family: 'W-Semibold';
+  font-size: 24px;
+  line-height: 32px;
 }
 
 @mixin h1-rule {

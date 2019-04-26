@@ -3,11 +3,32 @@ import '../style/Credits.css'
 
 class Credits extends Component {
 
+  constructor() {
+    super()
+    this.state = {
+      scrollActive: false
+    }
+  }
+
   componentDidUpdate(prevProps, prevState) {
-    if (this.props.display !== 'credits') {
+    if (this.props.display !== prevProps.display) {
       var scroll = document.getElementById('credits-scroll-container')
       scroll.scrollTop = 0
     }
+  }
+
+  _initScroll() {
+    var scroll = document.getElementById('credits-scroll-container')
+    if (scroll.scrollTop === 0) {
+      this.setState({
+        scrollActive: false
+      })
+    } else {
+      this.setState({
+        scrollActive: true
+      })
+    }
+    this.props.handlerScrollCredits()
   }
 
   render() {
@@ -44,15 +65,23 @@ class Credits extends Component {
     return(
       <div id="credits">
         <button
-          onTouchEnd={(e) => this.props.handlerCloseCredits(e)}
-          onClick={(e) => this.props.handlerCloseCredits(e)}
+          onTouchEnd={() => this.props.handlerCloseCredits()}
+          onClick={() => this.props.handlerCloseCredits()}
         />
-        <div id="credits-scroll-container">
+        <div
+          id="credits-scroll-container"
+          onTouchMove={() => this._initScroll()}
+          onScroll={() => this._initScroll()}
+          >
+          <div
+            id="credits-mask-top"
+            className={(!this.state.scrollActive) ? 'hide' : ''}
+          />
           <h1>Credits</h1>
           <ul>
             {rows}
           </ul>
-          <div id="credits-mask" />
+          <div id="credits-mask-bottom" />
         </div>
       </div>
     )
