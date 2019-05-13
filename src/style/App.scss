@@ -7,16 +7,6 @@
   overflow: hidden;
   color: #000;
 
-  #container-loader {
-    width: 1920px;
-    height: 1080px;
-    background-color: #000;
-    position: absolute;
-    z-index: 1;
-    overflow: hidden;
-    display: none;
-  }
-
   #container-attract {
     width: 1920px;
     height: 1080px;
@@ -34,7 +24,7 @@
     position: absolute;
     z-index: 3;
     background-color: #000;
-    display: none;
+    display: show;
   }
 
   #container-credits {

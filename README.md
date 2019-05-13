@@ -22,8 +22,6 @@ Find .env files and fonts.zip in team Google Drive:
 |   |   |   |   +-- Technical
 ```
 
-Copy .env files into root of local project.
-
 Copy contents of fonts.zip (a “fonts” directory) to project's “/src” directory.
 
 Copy contents of people.zip (a “people” directory) to project's “/src/img/”

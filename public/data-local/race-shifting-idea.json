@@ -1,0 +1,3399 @@
+[
+  {
+    "title_administrative": "Race Shifting Idea Basics",
+    "items": [
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Race: A Shifting Idea</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Raza: Una idea que cambia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>種族：一個不斷轉變的觀念</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Lahi: Isang Nagbabagong Pagtingin</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Racial categories in the United States and elsewhere have changed many times throughout history, along with ideas about who makes up each category. The U.S. Census illustrates the changeable nature of our ideas of race. Explore how the U.S. Census would have categorized these individuals in censuses from 1790 to 2000.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Las categorías raciales en los Estados Unidos y en otros lugares han cambiado muchas veces a lo largo de la historia, junto con las ideas sobre quiénes componen cada categoría. El Censo de los EE. UU. ilustra la naturaleza cambiante de nuestras ideas de raza. Explora la manera en que el Censo de los EE. UU. habría categorizado a estos individuos en los censos de 1790 a 2000.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>美國和其他地區的種族類別在歷史上曾發生多次變化，同時變化的還有人們關於每個種族由哪些人組成的觀念。美國人口普查顯示了我們對種族的觀念複雜多變。探索美國人口普查在 1790 年至 2000 年的人口普查中，如何對這些人口進行劃分。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang mga kategoryang panlahi sa Estados Unidos at sa iba pang lugar ay nagbago nang maraming beses sa kahabaan ng kasaysayan, kasama na ang pagtingin kung sino ang kasama sa bawat kategorya. Naglalarawan ang Senso ng Estados Unidos ng nababagong kalikasan ng ating pagtingin tungkol sa lahi. Tuklasin kung paano kaya ikinategorya ng Senso ng Estados Unidos ang mga indibidwal na ito sa mga senso mula 1790 hanggang 2000.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "tap-label"
+        },
+        "English": {
+          "#markup": "<p>Tap a person to explore</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Toque una persona para explorar</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>選擇一個人，開始探索</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tumapik ng isang tao para maggalugad</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "person-name-label"
+        },
+        "English": {
+          "#markup": "<p>My name is:</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mi nombre es:</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>我的名字是:</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang pangalan ko ay:</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "person-identity-label"
+        },
+        "English": {
+          "#markup": "<p>I identify as:</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Me identifico como:</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>我自己認為我是:</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kinikilala ko ang sarili ko bilang :</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "person-info-eyebrow-label"
+        },
+        "English": {
+          "#markup": "<p>On the U.S. Census, I likely would have been marked:</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el Censo de los EE. UU., probablemente me habrían marcado:</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在美國人口普查中，我可能會被標記為:</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng Estados Unidos, malamang na namarkahan ako bilang:</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "poll-teaser"
+        },
+        "English": {
+          "#markup": "<p>How should the census count race or ethnic demographics?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Cómo debe el censo hacer un recuento de la raza o la demografía étnica?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人口普查應該如何進行種族或種群的人口統計？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Paano dapat bilangin ng senso ang lahi at etnikong demograpiko?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "poll-button-label"
+        },
+        "English": {
+          "#markup": "<p>Take Our Poll</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Realiza nuestra encuesta</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>參加我們的調查</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sumagot sa Aming Poll</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "attract-header"
+        },
+        "English": {
+          "#markup": "<p>Race: A Shifting Idea</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Raza: Una idea que cambia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>種族：一個不斷轉變的觀念</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Lahi: Isang Nagbabagong Pagtingin</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "attract-cta"
+        },
+        "English": {
+          "#markup": "<p>Tap to explore</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Toque para explorar</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>選擇，開始探索</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tumapik (tap) para maggalugad</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-header"
+        },
+        "English": {
+          "#markup": "<p>2000 Census</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Censo del 2000</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 人口普查中</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Senso ng 2000</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-header"
+        },
+        "English": {
+          "#markup": "<p>1960 Census</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Censo de 1960</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1960 人口普查中</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Senso ng 1960</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-header"
+        },
+        "English": {
+          "#markup": "<p>1930 Census</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Censo de 1930</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1930 人口普查中</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Senso ng 1930</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-header"
+        },
+        "English": {
+          "#markup": "<p>1870 Census</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Censo de 1870</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1870 人口普查中</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Senso ng 1870</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-header"
+        },
+        "English": {
+          "#markup": "<p>1790 Census</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Censo de 1790</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1790 人口普查中</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Senso ng 1790</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Poll",
+    "items": [
+      {
+        "Key": {
+          "#markup": "question"
+        },
+        "English": {
+          "#markup": "<p>How should the census count race or ethnic demographics?</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>¿Cómo debe el censo hacer un recuento de la raza o la demografía étnica?</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人口普查應該如何進行種族或種群的人口統計？</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Paano dapat bilangin ng senso ang lahi at etnikong demograpiko?</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "header-eyebrow"
+        },
+        "English": {
+          "#markup": "<p>Race: A Shifting Idea</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Raza: Una idea que cambia</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>種族：一個不斷轉變的觀念</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Lahi: Isang Nagbabagong Pagtingin</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "header"
+        },
+        "English": {
+          "#markup": "<p>Counting Ahead</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El recuento de aquí en adelante</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>未來的人口普查</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pagbibilang sa Hinaharap</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "description"
+        },
+        "English": {
+          "#markup": "<p>Census results have a big impact on our lives, from the number of representatives in Congress to the federal funding our communities receive. For the 2020 Census, government officials decided to use the same race and Hispanic origin checkboxes as the 2010 Census, with space to write in a specific origin for any checkbox. People may check more than one box. How the census will count us going forward is an open question.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los resultados del censo tienen un gran impacto en nuestras vidas, desde la cantidad de representantes en el Congreso hasta los fondos federales que reciben nuestras comunidades. Para el censo del 2020, los funcionarios del gobierno decidieron usar las mismas casillas de verificación de raza y origen hispano que el censo del 2010, con espacio para escribir un origen específico para cualquier casilla de verificación. Las personas pueden marcar más de una casilla. Cómo nos contará el censo de aquí en adelante es una pregunta abierta.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>從國會代表的人數，到我們社區獲得的聯邦資金，人口普查結果對我們的生活有重大的影響。對於 2020 年的人口普查，政府官員決定採用與 2010 年人口普查相同的種族以及拉美裔選項，並為所有選項留有空白以供填寫具體的祖源。人們可能會勾選多個選項。未來，人口普查將如何統計我們的數據仍是一個懸而未決的問題。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>May malaking epekto ang mga resulta ng senso sa ating mga buhay, mula sa bilang ng mga kinatawan sa Kongreso hanggang sa pondo na natatanggap ng ating mga komunidad mula sa pamahalaan. Para sa Senso ng 2020, nagpasiya ang mga opisyal ng pamahalaan na gamitin ang kaparehong checkboxes na ginamit sa Senso ng 2010 para sa lahi at Hispanong pinagmulan, na may espasyo para maisulat ang espesipikong pinagmulan para sa anumang checkbox. Maaaring maglagay ng tsek ang mga sumasagot sa higit sa isang kahon. Kung paano tayo bibilangin ng senso sa mga darating na panahon ay isang bukas na katanungan.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "choose-header"
+        },
+        "English": {
+          "#markup": "<p>Choose one</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Elige una opción</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>選擇一項</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pumili ng isa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "pro-label"
+        },
+        "English": {
+          "#markup": "<p>Pro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>A favor</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>優點</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pavor</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "con-label"
+        },
+        "English": {
+          "#markup": "<p>Con</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En contra</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>缺點</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kontra</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "submit-button-label"
+        },
+        "English": {
+          "#markup": "<p>Submit response and see results</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Envía la respuesta y observa los resultados</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>提交答案並查看結果</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ipasa ang sagot at tingnan ang mga resulta</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "result-header"
+        },
+        "English": {
+          "#markup": "<p>Here’s how your response compares with others who took this poll.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Así es como tu respuesta se compara con la de otras personas que participaron en esta encuesta.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>以下是你與其他調查參與者的回答比較。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Makikita dito ang pagkokompara ng iyong mga sagot sa iba pang sumagot sa poll na ito.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "responses-label"
+        },
+        "English": {
+          "#markup": "<p>Total poll responses</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Cantidad total de respuestas a la encuesta</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>調查回答總數</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kabuuan ng mga sagot sa poll</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "completed-label"
+        },
+        "English": {
+          "#markup": "<p>Number of people who chose this option</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Cantidad de personas que eligieron esta opción</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>選擇此選項的人數</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Bilang ng tao na pumili nito</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Poll Option 1",
+    "items": [
+      {
+        "Key": {
+          "#markup": "label"
+        },
+        "English": {
+          "#markup": "<p><strong>Option 1</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>Opción 1</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>選項1</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Opsiyon 1</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "answer"
+        },
+        "English": {
+          "#markup": "<p><strong>The census should keep the race and Hispanic origin questions the same.</strong> </p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>El censo debe mantener iguales las preguntas sobre raza y origen hispano.</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>人口普查應該採用相同的種族和拉美裔問題。</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Dapat panatilihin ng senso ang tanong tungkol sa lahi at Hispanong pinagmulan.</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "pro"
+        },
+        "English": {
+          "#markup": "<p>Keeping this format makes it easier to compare data over time to track population changes. Civil rights laws are administered based on census results; changing the census could disrupt that process.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Al mantener este formato se facilita la comparación de datos a lo largo del tiempo para dar seguimiento a los cambios en la población. Las leyes de derechos civiles se administran conforme a los resultados del censo; cambiar el censo podría perjudicar ese proceso.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>保持這種方式可以更容易地比較數據隨時間的變化，從而跟蹤人口的變化。民權法乃根據人口普查的結果實施，改變人口普查的方式可能會改變這一過程。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang pagpapanatili sa ganitong pormat ay magpapadali sa pagkompara ng datos sa paglipas ng panahon para masubaybayan ang pagbabago ng populasyon. Ipinatutupad ang mga batas sa karapatang sibil batay sa resulta ng senso; maaaring magulo ang proseso kung babaguhin ang senso.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "con"
+        },
+        "English": {
+          "#markup": "<p>As the Census Bureau acknowledges, racial categories are not based in science. By continuing to count race, the census reinforces flawed ideas. Also, people are often confused by the Hispanic origin question paired with the race question.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Tal como lo declara la Oficina del Censo, las categorías raciales no tienen fundamento científico. Al continuar contando por raza, el censo refuerza ideas erróneas. Además, a menudo las personas se confunden ante la pregunta sobre origen hispano a la par de la pregunta sobre raza.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>正如人口普查局所承認，種族類別並非以科學為依據。如果人口普查繼續統計種族，會助長人們錯誤的觀念。另外，人們常常弄不清與種族問題一起出現的拉美裔問題。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Kawanihan ng Senso na mismo ang umamin, hindi batay sa agham ang mga kategoryang panlahi. Sa patuloy na pagbilang ng lahi, ipinagtitibay ng senso ang mga balikong paniniwala. Gayundin, nalilito ang mga tao sa pagpapares ng tanong sa Hispanong pinagmulan at tanong sa lahi.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Poll Option 2",
+    "items": [
+      {
+        "Key": {
+          "#markup": "label"
+        },
+        "English": {
+          "#markup": "<p><strong>Option 2</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>Opción 2</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>選項2</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Opsiyon 2</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "answer"
+        },
+        "English": {
+          "#markup": "<p><strong>The census should ask a single, simpler question that covers both race and origin.</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>El censo debe realizar una sola pregunta más simple que cubra tanto la raza como el origen.</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>人口普查應該問一個同時涵蓋種族和祖源的簡單問題。</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Ang senso ay dapat magtanong ng iisa, at pinasimpleng tanong na sumasaklaw sa parehong lahi at pinagmulan.</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "pro"
+        },
+        "English": {
+          "#markup": "<p>Combining the Hispanic origin and race questions into one simplified question would be less confusing, but could maintain the language relevant for civil rights laws.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La combinación de las preguntas sobre origen hispano y raza en una sola pregunta simplificada sería menos confusa, y podría mantener los términos relevantes para las leyes de derechos civiles.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>將種族和拉美裔問題合併為一個簡單問題可以減少迷惑，但仍可以保持與民權法相關的措辭。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang pagsasama ng mga tanong sa Hispanong pinagmulan at lahi sa isang pinasimpleng tanong ay makababawas sa pagkalito, pero mapananatili ang wika na may kinalaman sa mga batas sa karapatang sibil.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "con"
+        },
+        "English": {
+          "#markup": "<p>Combining and simplifying the race and Hispanic origin questions doesn’t make them any more scientific; continuing to count these categories reinforces flawed ideas.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La combinación y simplificación de las preguntas sobre origen hispano y raza no las hace más científicas; si se continúan contando estas categorías, se refuerzan ideas erróneas.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>合併和簡化種族和拉美裔問題不會使它們變得更加科學，如果繼續統計這些種族，會助長人們錯誤的觀念。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindi naman makadaragdag ang pagsasama at pagpapasimple ng tanong sa lahi at Hispanong pinagmulan sa pagiging siyentipiko nito; ipinagtitibay ng patuloy na pagbibilang ng mga ganitong kategorya ang mga balikong paniniwala.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 1",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Kristina</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Kristina</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Kristina</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kristina</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>Middle Eastern</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Del Medio Oriente</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p> </p>\n<p>中東人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Taga-Gitnang Silangan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The census has never included a separate racial category for people of Middle Eastern and North African (MENA) descent. As a result, on the 2000 Census, people who identified as MENA but not “White” marked a variety of races, often “Some other race,” which is what Kristina marked.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo nunca ha incluido una categoría racial aparte para los descendientes de personas del Medio Oriente y África del Norte (MENA). Como resultado, en el censo del año 2000, las personas que se identificaron como MENA pero no como “Blanco” marcaron una variedad de razas, a menudo “De alguna otra raza”, que es lo que Kristina marcó.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>人口普查從未為具有中東和北非 (MENA) 血統的人提供單獨的種族類別。因此，在 2000 年的人口普查中，自認為是 MENA 但不是「白人」的人選擇了各種各樣的種族，通常是「其他種族」，這也是 Kristina 選擇的種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindi pa nagsama ang senso ng hiwalay na kategoryang panlahi para sa mga taong may ninunong mula sa Gitnang Silangan at Hilagang Aprika (MENA). Dahil dito, sa Senso ng 2000, ang mga taong tinutukoy ang sarili bilang MENA pero hindi \"Puti\" ay nagmarka ng iba't ibang lahi, madalas \"Ilan pang ibang lahi,\" na siyang minarkahan ni Kristina.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions: “Italians, Portuguese, Poles, Syrians, Lebanese, and other European and Near Eastern nationalities—These are not racial descriptions; mark ‘White’ for such persons.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones: “Italianos, portugueses, polacos, sirios, libaneses y otras nacionalidades europeas y del Cercano Oriente (no son descripciones raciales); marque ‘Blanco’ para esas personas”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇：「義大利人、葡萄牙人、波蘭人、敘利亞人、黎巴嫩人以及其他歐洲和近東國籍 — 這些並非種族描述；這些人一律標記為『白人』。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: \"Mga Italyano, Portuges, Pole, Syrian, Lebanese, at iba pang nasyonalidad na Europeo at Malapit na Silangan−Hindi paglalarawan ng lahi ang mga ito; markahang \"Puti\" ang mga taong ganito.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White or Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco u Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Iba Pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>White or Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco u Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Iba Pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>White or Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco u Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Iba Pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>Immigration to the United States by people from the Middle East increased from 1870 onward. By 1930, there was debate about whether or not people with Middle Eastern ancestors should be considered “White.” Census takers were instructed, “For a person of any other race, write the race in full.” The opinion of the census taker determined whether a person with ancestors from the Middle East was marked as “White” or another race.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La inmigración de personas del Medio Oriente hacia los Estados Unidos creció a partir de 1870 en adelante. Hacia 1930, surgió el debate sobre si las personas con ancestros del Medio Oriente debían o no debían considerarse “Blancos”. Los empadronadores recibieron la instrucción “Para una persona de cualquier otra raza, escriba la raza en forma completa”. La opinión del empadronador determinaba si una persona con ancestros del Medio Oriente era marcada como “Blanco” o de otra raza.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>從 1870 年開始，從中東移民到美國的人有所增加。到 1930 年，對於是否應該將中東人的後裔視為「白人」存在爭議。人口普查調查員收到的指示是，「對於任何其他種族的人，請完整地記下其種族。」人口普查調查員的意見決定了中東人的後裔被標記為「白人」，還是其他種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Nadagdagan ang pandarayuhan papunta sa Estados ng mga taong mula sa Gitnang Silangan simula noong 1870 at pagtagal pa. Pagdating ng 1930, may debate kung ang mga taong may ninunong mula sa Gitnang Silangan ay maituturing na \"Puti\" o hindi. Sinabihan ang mga tagakuha ng senso, \"Para sa isang tao na may iba pang lahi, isulat nang buo ang lahi.\" Ang opinyon ng tagakuha ng senso ang nagtakda kung ang isang taong may ninunong mula sa Gitnang Silangan ay minarkahan bilang \"Puti\" o iba pang lahi.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>There weren’t many people immigrating from the Middle East to the United States at this point. With the societal perceptions of the time, it’s unlikely that census takers would have considered a person with Middle Eastern ancestors and relatively light skin as “Negro,” “Mulatto,” or “Indian.” The other options on this census were “Chinese” and “White.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>No hubo muchas personas que inmigraran desde el Medio Oriente hacia los Estados Unidos en ese momento. Con las percepciones sociales de la época, es poco probable que los empadronadores hubieran considerado a una persona con ancestros del Medio Oriente y piel relativamente clara como “Negro”, “Mulato” o “Indio”. Las otras opciones de este censo eran “Chino” y “Blanco”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>當時，從中東移民到美國的人並不多。根據當時的社會認知，人口普查調查員不太可能將中東後裔和膚色相對較淺的人視為「黑人」、「黑白混血兒」或「印第安人」。此次人口普查的其他選項是「中國人」和「白人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindi ganoon karami ang taong nandarayuhan mula sa Gitnang Silangan patungo sa Estados Unidos sa puntong ito. Batay sa pagtingin ng lipunan sa panahong iyon, malabong itinuring ng mga tagakuha ng senso ang isang taong may mga ninunong mula sa Gitnang Silangan at may kaputian ang balat bilang \"Negro,\" Mulato,\" o \"Indian.\" Ang iba pang pagpipilian sa senso na ito ay \"Tsino\" at \"Puti.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Free white or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Free white or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Free white or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>Few people immigrated from the Middle East to the United States at this time. The opinion of the individual census taker doing the counting determined how a person with Middle Eastern ancestors would be categorized, likely “Free White” or “Other free person.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Pocas personas inmigraron desde el Medio Oriente hacia los Estados Unidos en ese momento. La opinión del empadronador individual que realiza el recuento determinaba cómo se categorizaría a una persona con ancestros del Medio Oriente, probablemente “Blanco libre” u “Otra persona libre”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>當時，從中東人移民到美國的人並不多。負責統計的人口普查調查員的個人意見決定了中東人後裔是如何被分類的，應該會是「自由白人」或「其他自由人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kaunti pa lamang mula sa Gitnang Silangan ang nandarayuhan sa Estados Unidos sa panahong ito. Ang opinyon ng indibidwal na tagakuha ng senso na gumagawa ng pagbibilang ang nagtakda kung paano ikakategorya ang taong may ninunong mula sa Gitnang Silangan, na malamang ay \"Malayang Puti\" o kaya \"Ibang malayang tao.\"</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 2",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Cooper</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Cooper</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Cooper</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Cooper</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>Caucasian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Caucásico</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>高加索人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Caucasian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White, Other Spanish/Hispanic/Latino origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Otro origen español/hispano/latino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和其他西班牙裔/拉美裔/拉丁裔</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at ibang Espanyol/Hispano/Latino na pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>White, Other Spanish/Hispanic/Latino origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Otro origen español/hispano/latino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和其他西班牙裔/拉美裔/拉丁裔</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at ibang Espanyol/Hispano/Latino na pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>White, Other Spanish/Hispanic/Latino origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Otro origen español/hispano/latino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和其他西班牙裔/拉美裔/拉丁裔</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at ibang Espanyol/Hispano/Latino na pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The 2000 Census was the first that allowed people to choose more than one racial category. Most individuals who selected multiple categories chose “White” as one of those races. Cooper also marked the origin question “Other Spanish/Hispanic/Latino,” because his grandmother is from Spain.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo del año 2000 fue el primero que permitió a las personas elegir más de una categoría racial. La mayoría de los individuos que seleccionaron múltiples categorías eligieron a “Blanco” como una de esas razas. Cooper además marcó la pregunta de origen \"Otro origen español/hispano/latino\", porque su abuela es de España.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 年的人口普查首次允許人們選擇一個以上的種族。在選擇了多種族的人群中，大多數人會選擇「白人」為其中一個種族。對於這個祖源問題，Cooper 還選擇了「其他西班牙裔/拉美裔/拉丁裔」，因為他的祖母來自西班牙。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 2000 ang unang nagbigay ng pagkakataon sa mga tao na pumili ng higit sa isang lahi. Karamihan sa mga indibidwal na pumili ng higit sa isang kategorya ay pumili ng \"Puti\" bilang isa sa mga lahing iyon. Minarkahan din ni Cooper ang tanong sa pinagmulan ng \"Ibang Espanyol/Hispano/Latino,\" dahil galing sa Espanya ang lola niya.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions: “Italians, Portuguese, Poles, Syrians, Lebanese, and other European and Near Eastern nationalities—These are not racial descriptions; mark ‘White’ for such persons.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones: “Italianos, portugueses, polacos, sirios, libaneses y otras nacionalidades europeas y del Cercano Oriente (no son descripciones raciales); marque ‘Blanco’ para esas personas”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇：「義大利人、葡萄牙人、波蘭人、敘利亞人、黎巴嫩人以及其他歐洲和近東國籍 — 這些並非種族描述；這些人一律標記為『白人』。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: \"Mga Italyano, Portuges, Pole, Syrian, Lebanese, at iba pang nasyonalidad na Europeo at Malapit na Silangan−Hindi paglalarawan ng lahi ang mga ito; markahang \"Puti\" ang mga taong ganito.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>The definition of “White” has shifted over time. But light-skinned people with European ancestors were usually assigned this category, and most would have been marked “White” on the 1930 Census.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La definición de “Blanco” se modificó con el paso del tiempo. Pero a las personas de piel clara con ancestros europeos se les asignaba esta categoría, y la mayoría habría sido marcada como “Blanco” en el censo de 1930.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>「白人」的定義隨時間的推移發生了變化。但是，淺膚色的歐洲人後裔通常被歸為這一類別，在 1930 年的人口普查中，大多數歐洲人後裔都被標記為「白人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Nagbago ang depinisyon ng \"Puti\" sa paglipas ng panahon. Subalit mga taong mapuputi ang balat na may ninunong Europeo ang kadalasang inilagay sa kategoryang ito, at karamihan ay malamang na minarkahang \"Puti\" sa Senso ng 1930.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>Light-skinned people with European ancestors were typically counted as “White.” By 1870, census takers no longer tallied women and children in groups. Instead, each individual’s name and age was recorded. The opinion of the census taker determined how a person was racially categorized.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Las personas de piel clara con ancestros europeos se contaban típicamente como “Blanco”. Hacia 1870, los empadronadores ya no contaban a las mujeres y a los niños en grupos. En vez de eso, se registraba el nombre y la edad de cada persona. La opinión del empadronador determinaba cómo se categorizaba racialmente a una persona.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>淺膚色的歐洲人後裔通常被統計為「白人」。到了 1870 年，人口普查調查員不再按群體來統計女性和兒童的數據。他改為記錄每個人的姓名和年齡。人口普查調查員的意見決定了一個人如何進行種族劃分。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang mga taong mapuputi ang balat na may ninunong Europeo ay karaniwang minarkahan bilang \"Malayang Puti.\" Pagdating ng 1870, hindi na pinagpangkat-pangkat ng mga tagakuha ng senso ang mga babae at bata. Sa halip, inirekord ang pangalan at edad ng bawat indibidwal. Ang opinyon ng tagakuha ng senso ang nagtakda kung sa aling kategorya ng lahi ilalagay ang isang tao.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Free white</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Free white</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Free white</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>Light-skinned people with European ancestors were typically counted as “Free White.” Only a male head of household was identified by name in this census. Women, children, and others were tallied by age ranges and gender. The opinion of the individual census taker determined how a person was racially categorized.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Las personas de piel clara con ancestros europeos se contaban típicamente como “Blanco libre”. En este censo solo se identificaba por su nombre al varón jefe de familia. Las mujeres, los niños y otras personas se contaban por rango de edades y sexo. La opinión del empadronador individual determinaba cómo se categorizaba racialmente a una persona.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>淺膚色的歐洲人後裔通常被統計為「自由白人」。在這次人口普查中，家庭裡只有一位男戶主要填寫姓名。女性、兒童和其他人則按年齡和性別來統計。人口普查調查員的個人意見決定了一個人如何進行種族劃分。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang mga taong mapuputi ang balat na may ninunong Europeo ay karaniwang binilang bilang \"Malayang Puti.\" Tanging ang lalaking ulo ng tahanan ang tinukoy sa pangalan sa sensong ito. Ang mga babae, bata, at iba pa ay pinagpangkat-pangkat batay sa saklaw ng edad at kasarian. Ang opinyon ng tagakuha ng senso ang nagtakda kung sa aling kategorya ng lahi ilalagay ang isang tao.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 3",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Kala</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Kala</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Kala</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kala</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>A multi-cultural person, White and Native American</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Una persona multicultural, blanca y nativa americana</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>一個多元文化的人、白人和美洲原住民</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Isang multikultural na tao, Puti at Katutubong Amerikano</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White, American Indian/Alaska Native</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Amerindio/Nativo de Alaska</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和美洲印第安人或阿拉斯加原住民</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at Amerikanong Indian/Katutubo ng Alaska</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>White, American Indian/Alaska Native</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Amerindio/Nativo de Alaska</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和美洲印第安人或阿拉斯加原住民</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at Amerikanong Indian/Katutubo ng Alaska</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>White, American Indian/Alaska Native</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco, Amerindio/Nativo de Alaska</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人和美洲印第安人或阿拉斯加原住民</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti at Amerikanong Indian/Katutubo ng Alaska</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The 2000 Census was the first that allowed people to choose more than one race. Almost 7 million people (2.4 percent of the population) selected multiple races in that census.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo del año 2000 fue el primero que permitió a las personas elegir más de una raza. Casi 7 millones de personas (2.4 % de la población) seleccionaron múltiples razas en ese censo</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 年的人口普查首次允許人們選擇一個以上的種族。在該次人口普查中，有近 700萬人（佔人口的 2.4％）選擇了多個種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 2000 ang unang nagbigay ng pagkakataon sa mga tao na pumili ng higit sa isang lahi. Halos 7 milyong tao (2.4 na porsiyento ng populasyon) ang pumili ng higit sa isang lahi sa senso na iyon.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White or American Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Amerindio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或美洲印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Amerikanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>White or American Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Amerindio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或美洲印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Amerikanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>White or American Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Amerindio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或美洲印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Amerikanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions: “Mark ‘American Indian’ for fullblooded Indians and for persons of white and Indian blood if you know the proportion of Indian blood is one-fourth or more.” Kala thinks she likely would have marked “White,” but based on her family background, the census taker might have changed it.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones: “Marque ‘Amerindio’ para los indios puros y para las personas de sangre blanca e india si sabe que la proporción de sangre india es una cuarta parte o más”. Kala cree que probablemente habría marcado “Blanco”, pero basándose en sus antecedentes familiares, el empadronador podría haberlo cambiado.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇：「標記為『美洲印第安人』的應是純正血統的印地安人以及你知道印第安人血統的比例是四分之一或以上的白人和印第安人的混血兒。」Kala 認為她應該會被標記為「白人」，但根據她的家庭背景，人口普查調查員可能會將其修改。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: \"Markahang 'Amerikanong Indian' ang mga Indian na puro ang dugo at ang mga tao na may dugong puti at Indiyano kung alam mong ang bahagdan ng dugong Indiyano ay isang kapat o higit pa.\" Iniisip ni Kala na malamang ay mamarkahan niya ang \"Puti,\" pero batay sa background ng kaniyang pamilya, maaaring papalitan ito ng tagakuha ng senso.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1930 Census, census takers marked individuals with Native American ancestors as “Indian” and indicated if the person was “full blood” or “mixed blood.” Census takers were told, “A person of mixed white and Indian blood should be returned as Indian, except where the percentage of Indian blood is very small, or where he is regarded as a white person by those in the community where he lives.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1930, los empadronadores marcaban a los individuos con ancestros nativos americanos como “Indios” e indicaban si la persona era “de origen puro” o “mestiza”. Se les decía a los empadronadores: “Una persona mestiza de sangre blanca e india debe ser reportada como Indio, excepto cuando el porcentaje de sangre india sea muy pequeño, o cuando sea considerada como una persona blanca por los miembros de la comunidad en la que vive”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1930 年的人口普查中，人口普查調查員將美洲原住民的後裔標記為「印第安人」，並指明該人是「純正血統」還是「混血」印第安人。人口普查調查員收到的指示是，「白人和印第安人的混血兒應被視為是印第安人，除非印第安人的血統比例非常小，或者他所居住的社區中的人認為他是白人。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1930, minarkahan ng mga tagakuha ng senso ang mga indibidwal na may ninunong Katutubong Amerikano bilang \"Indian\" at isinaad kung siya ay \"puro\" o \"halo.\" Sinabihan ang mga tagakuha ng senso, \"Ang isang tao na may halong dugo ng puti at Indian ay dapat iulat bilang Indian, maliban na lang kung ang bahagdan ng dugong Indian ay napakaliit, o kung itinuturing siyang puti ng mga tao sa komunidad na kaniyang tinitirhan.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White or Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>White or Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>White or Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco o Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人或印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti o Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>In 1870, census takers counted individuals with Native American ancestry by the company they kept: “Where...found residing with whites, adopting their habits of life and methods of industry, such persons are to be treated as belonging to the white population.” If the person lived primarily with other Native Americans, they were counted as “Indian.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En 1870, los empadronadores contabilizaban a los individuos con ascendencia nativa americana según cómo estaban acompañados: “Donde...se encuentre residiendo con blancos, adoptando sus hábitos de vida y métodos de industria, tales personas deben ser tratadas como pertenecientes a la población blanca”. Si la persona vivía principalmente con otros nativos americanos, se contaba como “Indio”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1870 年，人口普查調查員根據美洲原住民後裔的聚居方式，將他們的數據納入人口普查範圍：「假如與白人一起生活，並採用他們的生活習慣和工業生產方法，這樣的人應被視為白人。」如果這人主要與其他美洲原住民生活在一起，那麼他們就應被視為「印第安人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Noong 1870, ibinilang ng mga tagakuha ng senso ang mga indibidwal na may ninunong Katutubong Amerikano batay sa kasama nila: \"Kapag...natagpuang namumuhay kasama ang mga puti, ginagamit ang kanilang mga gawi sa buhay at pamamaraan ng industriya, ituturing ang mga nasabing tao bilang bahagi ng populasyon ng mga puti.\" Kung namuhay siya nang mas nakakasama ang iba pang mga Katutubong Amerikano, binilang siya bilang \"Indian.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>[It's unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>[It's unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>[It's unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>Most people with Native American ancestors were not counted in this first census—they were considered part of separate sovereign nations. If they lived among European colonists, they would have been categorized as “Free White,” “Other free person,” or not counted, depending on the opinion of the individual census taker who counted them.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La mayoría de las personas con ancestros nativos americanos no fueron contadas en este primer censo, sino que fueron consideradas parte de naciones soberanas separadas. Si vivían entre colonos europeos, habrían sido categorizados como “Blanco libre”, “Otra persona libre” o no habrían sido contados, dependiendo de la opinión del empadronador individual que los contó.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>大多數美洲原住民的後裔都沒有計入第一次人口普查的數據內，因為他們被認為是獨立主權國家的一部分。如果他們生活在歐洲殖民者當中，他們會被劃分為「自由白人」、「其他自由人」，或者不統計在內，這取決於統計他們的人口普查調查員的個人意見。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Maraming tao na may ninunong Katutubong Amerikano ang hindi binilang sa unang senso−itinuring silang bahagi ng ibang hiwalay na bansang may kasarinlan. Kung namuhay silang kasama ng mga kolonistang Europeo, naikategorya sila bilang \"Malayang Puti,\" \"Ibang malayang tao,\" o hindi isinama, depende sa opinyon ng indibidwal na tagakuha ng senso na nagbibilang sa kanila.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Poll Option 3",
+    "items": [
+      {
+        "Key": {
+          "#markup": "label"
+        },
+        "English": {
+          "#markup": "<p><strong>Option 3</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>Opción 3</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>選項 3</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Opsiyon 3</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "answer"
+        },
+        "English": {
+          "#markup": "<p><strong>The census should make the answer a write-in. </strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>El censo debe hacer que la respuesta pueda escribirse. </strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>人口普查應把答案作為一個填寫式選項。</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Dapat gawin ng senso na pasulat ang pagsagot (sa halip na pagpili lang).</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "pro"
+        },
+        "English": {
+          "#markup": "<p>The current multiple-choice questions are narrow and reinforce our existing racial system. A write-in option would allow for more nuance and individuality.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Las actuales preguntas de opción múltiple son limitadas y refuerzan nuestro sistema racial existente. Una opción para escribir permitiría más matices e individualidad.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>當前的多項選擇題範圍很窄，強調了我們現有的種族制度。填寫式選項可體現更多的細微差別和個人選擇。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Makitid ang kasalukuyang multiple-choice na mga tanong at nagpapatibay sa ating umiiral na sistemang panlahi. Magbibigay ng espasyo ang opsiyong pasulat para sa higit na salimuot at indibidwalidad.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "con"
+        },
+        "English": {
+          "#markup": "<p>Write-in data would be difficult to analyze and compare to previous census results. Civil rights laws are administered based on census results; a loss of consistency could undermine their implementation.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los datos ingresados por escritura dificultarían el análisis y la comparación con resultados de censos anteriores. Las leyes de derechos civiles se administran conforme a los resultados del censo; la pérdida de uniformidad comprometería la implementación.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>填寫式數據難以分析並與之前的人口普查結果進行比較。民權法乃根據人口普查的結果實施，缺乏一致性可能會影響民權法的實施。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang isinulat na datos ay magiging mahirap aralin at ikompara sa mga naunang resulta ng senso. Ipinatutupad ang mga batas sa karapatang sibil batay sa resulta ng senso; maaaring masira ng kawalan ng konsistensi ang implementasyon ng mga ito.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Poll Option 4",
+    "items": [
+      {
+        "Key": {
+          "#markup": "label"
+        },
+        "English": {
+          "#markup": "<p><strong>Option 4</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>Opción 4</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>選項 4</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Opsiyon 4</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "answer"
+        },
+        "English": {
+          "#markup": "<p><strong>The census shouldn’t ask any questions like this.</strong></p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><strong>El censo no debe realizar ninguna pregunta como esta.</strong></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p><strong>人口普查不應該問這樣的問題。</strong></p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p><strong>Hindi dapat nagtatanong ang senso ng ganitong mga tanong.</strong></p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "pro"
+        },
+        "English": {
+          "#markup": "<p>Identity is complex and can change over time. The data this question produces will never be truly reliable.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>La identidad es compleja y puede cambiar con el paso del tiempo. Los datos que arroja esta pregunta nunca van a ser verdaderamente confiables.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>種族出身是一個複雜的問題，可能會隨著時間而改變。這個問題產生的數據絕不會真正可靠。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Komplikado ang identidad at maaaring magbago sa paglipas ng panahon. Hindi tunay na maaasahan kailanman ang datos na nagmumula sa tanong na ito.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "con"
+        },
+        "English": {
+          "#markup": "<p>Accurate census counts enable the administration of civil rights laws. Racial categories may not reflect biology, but racially-based discrimination remains widespread. The broad impacts of racial disparities may be obscured by the loss of a census count.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los recuentos exactos del censo permiten la administración de las leyes de derechos civiles. Es posible que las categorías raciales no reflejen aspectos biológicos, pero la discriminación por motivos raciales sigue siendo generalizada. El amplio impacto de las desigualdades raciales puede ser tapado por la pérdida de un recuento del censo.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>準確的人口普查有利於民權法的實施。種族類別可能無法反映生物學特點，但基於種族的歧視仍然很普遍。失去人口普查的統計可能會掩蓋種族差異引起的廣泛影響。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pinadadali ng tamang bilang ng senso ang pagpapatupad ng mga batas sa karapatang sibil. Hindi man sinasalamin ng mga kategoryang panlahi ang biyolohiya, nananatili namang laganap ang diskriminasyong batay sa lahi. Ang malawak na epekto ng hindi pagkakapantay-pantay ng mga lahi ay maaaring maikubli ng pagkawala ng bilang sa senso.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 4",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Juan</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Juan</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Juan</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Juan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>Hispanic, Mexican</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Hispano, Mexicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>拉美裔、墨西哥人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hispano, Mehikano</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race, Mexican/Mexican American/Chicano origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza, Mexicano/Mexicoamericano/<br />\nChicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族和墨西哥人、墨裔美國人、奇卡諾人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi</p>\n<p>at Mehikano/Mehikano Amerikano/Chicano ang pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race, Mexican/Mexican American/Chicano origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza, Mexicano/<br />\nMexicoamericano/Chicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族和墨西哥人、墨裔美國人、奇卡諾人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi</p>\n<p>at Mehikano/Mehikano Amerikano/Chicano ang pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>Some other race,<br />\nMexican/Mexican American/Chicano origin</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>De alguna otra raza, <br />\nMexicano/Mexicoamericano/Chicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他種族和墨西哥人、墨裔美國人、奇卡諾人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ilan pang ibang lahi at Mehikano/Mehikano Amerikano/Chicano ang pinagmulan</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>Since 1970, Mexican and other Central and South American ethnicities have been included on the census forms as “Hispanic” origins, rather than races. People whose families came from these parts of the world marked a variety of races including “White” and “Some other race.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Desde 1970, los mexicanos y otras etnias centroamericanas y sudamericanas han sido incluidos en los formularios del censo como de origen “Hispano”, en lugar de raza. Las personas cuyas familias provenían de estas partes del mundo marcaron una variedad de razas, que incluían “Blanco” y “De alguna otra raza”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自 1970 年以來，墨西哥人和其他中美洲及南美洲民族以「拉美裔」，而不是種族的形式被納入人口普查中。家族來自這些地方的人選擇了各種各樣的種族，包括「白人」和「其他種族」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mula 1970, ang Mehikano at iba pang etnisidad sa Gitna at Timog Amerika ay isinama na sa mga pormularyo ng senso bilang \"Hispano\" na pinagmulan, sa halip na mga lahi. Ang mga taong nagmula ang pamilya sa mga bahaging ito ng mundo ay nagmarka ng iba't ibang lahi kasama na ang \"Puti\" at \"Ilan pang ibang lahi.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions: “Puerto Ricans, Mexicans and other persons of Latin-American descent—These are not racial descriptions. Mark “White” for such persons unless they are definitely of Negro, Indian or other nonwhite race.” Juan says he wouldn’t have marked any of the boxes; the census taker would have marked him as “White.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones: “Puertorriqueños, mexicanos y otras personas de ascendencia latinoamericana (estas no son descripciones raciales). Marque “Blanco” para tales personas a menos que sean definitivamente de raza negra, india u otra raza no blanca”. Juan dice que no habría marcado ninguna de las casillas; el empadronador lo habría marcado como “Blanco”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇：「波多黎各人、墨西哥人和其他拉丁美洲人後裔 — 這些並非種族描述。除非確定他們是黑人、印第安人或其他非白人種，否則將這些人標記為『白人』。」Juan 說他不會選擇任何選項；人口普查調查員應該會將他標記為「白人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: \"Ang mga Puerto Rican, Mehikano, at iba pang taong may pinagmulang Latino-Amerikano−hindi ito mga panlarawan ng lahi. Markahan bilang \"Puti\" ang mga ganitong tao maliban na lang kung siguradong galing sila sa Negro, Indian o iba pang di-puting lahi.\" Sinasabi ni Juan na malamang na hindi niya mamarkahan ang alinman sa mga kahon; ang tagakuha ng senso ang magmamarka sa kaniya bilang \"Puti.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Mexican</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mexicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>墨西哥人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mehikano</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>Mexican</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mexicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>墨西哥人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mehikano</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>Mexican</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mexicano</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>墨西哥人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mehikano</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>“Mexican” appeared as a racial category in the 1930 Census. Census instructions read: “Practically all Mexican laborers are of a racial mixture difficult to classify… all persons born in Mexico, or having parents born in Mexico, who are not definitely white, Negro, Indian, Chinese, or Japanese should be returned as Mexican.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>“Mexicano” apareció como una categoría racial en el censo de 1930. Las instrucciones del censo decían lo siguiente: “Prácticamente todos los trabajadores mexicanos son de una mezcla racial difícil de clasificar… todas las personas nacidas en México, o cuyos padres no son definitivamente blancos, negros, indios, chinos o japoneses deben ser reportados como Mexicano”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>「墨西哥人」在 1930 年的人口普查中作為一個種族出現。人口普查的指示如下：「幾乎所有的墨西哥勞工都屬於混血難以分類。對於出生在墨西哥或父母出生在墨西哥，但明確不是白人、黑人、印第安人、中國人或日本人的人，都應該歸類為墨西哥人。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang \"Mehikano\" ay inilagay bilang kategoryang panlahi sa Senso ng 1930. Nakasulat sa panuto ng senso: \"Halos lahat ng Mehikanong manggagawa ay may halo ng lahi na mahirap ikategorya... lahat ng taong ipinanganak sa Mehiko, o may mga magulang na ipinanganak sa Mehiko, na siguradong hindi puti, Negro, Indian, Tsino, o Hapon ay dapat iulat bilang Mehikano.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>White</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>白人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Puti</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>The United States seized California and other western states from Mexico in 1848 after the Mexican-American War. Along with gold rush immigration, this led to more people with Mexican ancestry living within U.S.  borders. In the 1870 Census, a person with Mexican ancestry would likely have been categorized “White,” but it depended on the opinion of the individual census taker who counted them.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los Estados Unidos se apoderaron de California y otros estados occidentales de México en 1848, después de la guerra entre México y los Estados Unidos. Junto con la Fiebre del Oro, esto llevó a que más personas de ascendencia mexicana vivieran dentro de las fronteras de los Estados Unidos. En el censo de 1870, una persona con ascendencia mexicana probablemente habría sido categorizada como “Blanco”, pero dependía de la opinión del empadronador individual que la contaba.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在美墨戰爭之後，美國於 1848 年從墨西哥手中奪取了加州和其他西部的州。隨著淘金熱移民潮興起，越來越多的墨西哥人後裔開始居住在美國境內。在 1870 年的人口普查中，墨西哥人後裔應該會被劃分為「白人」，但這取決於統計他們的人口普查調查員的個人意見。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kinuha ng Estados Unidos mula sa Mehiko ang California at iba pang estado sa kanluran noong 1848 matapos ang Digmaang Mehikano-Amerikano. Kasama ng pandarayuhan noong gold rush, nagresulta ito sa mas maraming tao na may ninunong Mehikano na nakatira sa loob ng hanggahan ng Estados Unidos. Noong Senso ng 1870, ang isang tao na may ninunong Mehikano ay malamang na nailagay sa kategoryang \"Puti,\" pero nakadepende ito sa opinyon ng indibidwal na tagakuha ng senso na bumilang sa kaniya.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>In 1790, California and other western states were part of Mexico. Few people from Mexico lived within the United States at this point. The individual census taker doing the counting determined how a person with Mexican ancestors would be categorized in this first census.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En 1790, California y otros estados del oeste formaban parte de México. Pocas personas de México vivían dentro de los Estados Unidos en ese momento. El empadronador individual que hizo el conteo determinaba cómo se categorizaría a una persona con ancestros mexicanos en este primer censo.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>加州和其他西部的州在 1790 年時屬於墨西哥的領土。當時，很少有來自墨西哥的人生活在美國內。在第一次人口普查中，負責統計的人口普查調查員決定了如何對墨西哥後裔進行種族劃分。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Noong 1790, ang California at iba pang estado sa kanluran ay bahagi ng Mehiko. Kaunti pa lamang mula sa Mehiko ang namuhay sa loob ng Estados Unidos sa puntong ito. Sa unang sensong ito, ang indibidwal na tagakuha ng senso na gumagawa ng pagbibilang ang nagtatakda kung saang kategorya ilalagay ang mga taong may ninunong Mehikano.</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 5",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Quiana</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Quiana</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Quiana</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Quiana</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>African American of Ethiopian and Ghanaian descent</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Afroamericana de ascendencia etíope y ghanesa</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>擁有埃塞俄比亞和加納血統的非裔美國人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Aprikanong Amerikano na may pinagmulang Ethiopian at Ghanaian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Black/African American/Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Negro/Afroamericano/Negro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人或非裔美國人或</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Itim/Aprikanong Amerikano/Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>Black/African American/Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Negro/Afroamericano/Negro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>非裔美國人或黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Itim/Aprikanong Amerikano/Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>Black/African American/Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Negro/Afroamericano/Negro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人或非裔美國人或</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Itim/Aprikanong Amerikano/Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The 2000 Census was the first that allowed people to choose more than one race. Many individuals still chose to mark only one race, despite indicating in other questions in the census questionnaire that they could have marked multiple categories.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo del año 2000 fue el primero que permitió a las personas elegir más de una raza. Muchas personas todavía eligen marcar una sola raza, a pesar de que en otras preguntas del cuestionario del censo indican que podrían haber marcado varias categorías.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 年的人口普查首次允許人們選擇一個以上的種族。儘管在人口普查問卷的其他問題中指明他們可以選擇多個種族，許多人仍然只選擇一個種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 2000 ang unang nagbigay ng pagkakataon sa mga tao na pumili ng higit sa isang lahi. Maraming indibidwal ang pinili pa rin na isang lahi lamang ang markahan, kahit na inilagay nila sa ibang tanong sa kuwestiyonaryo ng senso na maaari silang magmarka sa higit sa isang kategorya.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions. Census takers were told, “Mark “Negro” for Negroes and for persons of mixed white and Negro parentage.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones. A los empadronadores se les dijo: “Marquen Negro a los negros y a las personas con linaje mestizo blanco y negro”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇。人口普查調查員收到的指示是，「將黑人以及白人和黑人的混血兒都標記為『黑人』。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: Sinabihan ang mga tagakuha ng senso, \"Markahang \"Negro\" ang mga Negro at ang mga tao na halong puti at Negro ang magulang.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>Negro</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p><em>Negro</em></p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Negro</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>Census takers in 1930 were told, “A person of mixed white and Negro blood should be returned as a Negro, no matter how small the percentage of Negro blood.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>A los empadronadores en 1930 se les dijo: “Una persona mestiza de sangre blanca y negra debe ser reportada como Negro, independientemente de lo pequeño que sea el porcentaje de sangre negra”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1930 年的人口普查調查員收到的指示是：「無論黑人的血統比例有多小，白人和黑人的混血兒一律被視為黑人。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sinabihan ang mga tagakuha ng senso ng 1930, \"Ang taong may halong dugong puti at Negro ay dapat iulat bilang Negro, kahit na gaano pa kaliit ang porsiyento ng dugong Negro.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Mulatto</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mulato</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑白混血兒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mulato</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>Mulatto</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mulato</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑白混血兒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mulato</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>Mulatto</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Mulato</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>黑白混血兒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mulato</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>Censuses from 1850 to 1920 (except 1900) included the category “Mulatto,” but its definition shifted from census to census. By counting individuals who had both sub-Saharan African and European ancestors as a distinct race, scientists of that era hoped to find data to bolster unfounded theories about the superiority of “pure races.” Quiana has Creole ancestors, so she likely would have been marked “Mulatto.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Los censos de 1850 a 1920 (excepto 1900) incluían la categoría “Mulato”, pero su definición cambió entre censo y censo. Al contar a los individuos que tenían ancestros tanto subsaharianos como europeos como una raza distinta, los científicos de esa época esperaban encontrar datos que reforzaran teorías infundadas sobre la superioridad de las “razas puras”. Quiana tiene ancestros criollos, por lo que probablemente habría sido marcada como “Mulato”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>從 1850 年到 1920 年（1900 年除外）的人口普查中都包含「黑白混血兒」這個類別，但它的定義在每次人口普查中各有不同。將撒哈拉以南非洲人和歐洲人的混血兒分類為其獨特種族的作法是因為那個時代的科學家希望找到相關數據，來證明「純種種族」優越性這種毫無根據的理論。Quiana 有克里奧耳人的血統，所以她應該會被標記為「黑白混血兒」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang mga senso mula 1850 hanggang 1920 (maliban noong 1900) ay nagsama ng kategoryang \"Mulato,\" subalit nagbabago-bago ang depinisyon nito sa bawat senso. Sa pagbilang ng mga indibidwal na magkasabay na may ninunong mula sa Aprika sa Timog Sahara at Europa bilang hiwalay na lahi, umasa ang mga siyentista ng panahong iyon na makahanap ng datos na magpapatibay sa mga inimbentong teorya tungkol sa higit na kagalingan ng mga \"purong lahi.\" Si Quiana ay may mga ninunong Creole, kaya malamang na \"Mulato\" ang mamarkahan niya sa sensong iyon.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Slave or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Esclavo u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>奴隸或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Alipin o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Slave or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Esclavo u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>奴隸或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Alipin o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Slave or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Esclavo u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>奴隸或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Alipin o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>In the United States at this time almost all people with ancestors from sub-Saharan Africa were enslaved, and were categorized as “Slave” on this first census. Quiana’s ancestors were brought to the U.S. through the transatlantic slave trade, but if a person was free and had ancestors from sub-Saharan Africa, they would likely have been marked as “Other free person.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En los Estados Unidos, en ese momento, casi todas las personas con ancestros del África subsahariana fueron esclavizadas, y fueron categorizadas como “Esclavo” en este primer censo. Los ancestros de Quiana fueron traídos a los Estados Unidos a través del comercio transatlántico de esclavos, pero si una persona era libre y tenía ancestros del África subsahariana, probablemente habría sido marcada como “Otra persona libre”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在當時的美國，幾乎所有撒哈拉以南非洲的後裔都被奴役，並在第一次人口普查中被劃分為「奴隸」。Quiana 的祖先在跨大西洋奴隸貿易中被帶到美國，但如果一個人是自由人並且擁有撒哈拉以南非洲血統，他們很可能被標記為「其他自由人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Estados Unidos sa panahong ito halos lahat ng tao na may ninuno mula sa Aprika sa Timog Sahara ay inalipin, at inilagay sa kategoryang \"Alipin\" sa unang senso. Ang mga ninuno ni Quiana ay dinala sa Estados Unidos sa pamamagitan ng transatlantikong kalakalan ng alipin, pero kung malaya ang isang tao at may mga ninuno mula sa Aprika sa Timog Sahara, malamang na minarkahan sila bilang \"Ibang malayang tao.\"</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 6",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Dion</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Dion</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Dion</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Dion</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>Chinese, Filipino, and Pacific Islander</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino, Filipino e Isleño del Pacífico</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人、菲律賓人和太平洋島民</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino, Pilipino, at Taga-Islang Pasipiko</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese, Filipino, Some Other Race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino, Filipino, De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人、菲律賓人、和其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino, Pilipino, at Ilan Pang Ibang Lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese, Filipino, Some Other Race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino, Filipino, De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人、菲律賓人、​和其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino, Pilipino, ​at Ilan Pang Ibang Lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese, Filipino, Some Other Race</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino, Filipino, De alguna otra raza</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人、菲律賓人、​和其他種族</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino, Pilipino, ​at Ilan Pang Ibang Lahi</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The 2000 Census was the first that allowed people to choose more than one racial category. Almost 7 million people (2.4 percent of the population) selected multiple races.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo del año 2000 fue el primero que permitió a las personas elegir más de una categoría racial. Casi 7 millones de personas (2.4 % de la población) seleccionaron múltiples razas.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 年的人口普查首次允許人們選擇一個以上的種族。有近 700萬人（佔人口的 2.4％）選擇了多個種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 2000 ang unang nagbigay ng pagkakataon sa mga tao na pumili ng higit sa isang lahi. Halos 7 milyong tao (2.4 na porsiyento ng populasyon) ang pumili ng higit sa isang lahi.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese or Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino o Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人或菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino o Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions: “…mixtures of nonwhite races should be reported according to the race of the father.” Dion thinks he would have marked “Chinese,” but the census taker might have changed it if they knew his father was “Filipino.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones: “…las mezclas de razas no blancas deben registrarse de acuerdo con la raza del padre”. Dion piensa que habría marcado “Chino”, pero el empadronador lo habría cambiado si supiera que su padre era “Filipino”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇：「......非白人種族的混血兒應按照他們父親的種族報告。」Dion 認為他會選擇「中國人」，但如果人口普查調查員知道他的父親是「菲律賓人」，可能會將他改為「菲律賓人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: \"...ang mga halo ng di-puting lahi ay dapat iulat batay sa lahi ng ama.\" Para kay Dion, \"Tsino\" ang mamarkahan niya pero maaaring papalitan ito ng tagakuha ng senso kung alam nilang ang kaniyang ama ay \"Pilipino.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Filipino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>菲律賓人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Pilipino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>The 1930 Census included two racial categories that could have been applied to Dion: “Chinese” and “Filipino.” If an individual stated “White” and another race, the census taker was instructed to count them as the other race. If they listed two “nonwhite” races, the census taker was instructed to mark them as the race of their father. For Dion, that would be “Filipino.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo de 1930 incluía dos categorías raciales que podrían haberse aplicado a Dion: “Chino” y “Filipino”. Si una persona decía “Blanco” y otra raza, el empadronador tenía instrucciones de contarlo como de la otra raza. Si elegían dos razas “no blancas”, el empadronador debía marcar la persona como la raza de su padre. Para Dion, sería “Filipino”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1930 年的人口普查包含兩個可能適用於 Dion 的種族類別：「中國人」和「菲律賓人」。如果一個人同時說自己是「白人」和「其他種族」，則人口普查調查員被指示將他們統計為「其他種族」。如果他們同時列出了兩個「非白人」種族，則人口普查員被指示按他們父親的種族標記他們的種族。對於 Dion 來說，那就是「菲律賓人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 1930 ay nagsama ng dalawang kategoryang panlahi na maaaring gamitin noon kay Dion: \"Tsino\" at \"Pilipino\" Kapag isinaad ng isang indibidwal ang \"Puti\" at isa pang lahi, sinabihan ang tagakuha ng senso na bilangin siya bilang ibang lahi. Kung naglista siya ng dalawang \"di-puti\" na lahi, sinabihan ang mga tagakuha ng senso na markahan siya sa ilalim ng lahi ng kaniyang ama. Para kay Dion, iyon ay \"Pilipino.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>Chinese</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Chino</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>中國人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Tsino</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>During the gold rush, many people from China traveled to the United States in search of work. The 1870 Census introduced the racial category “Chinese.” The other categories on the 1870 Census were “White,” “Black,” “Mulatto,” and “Indian.” Dion likely would have been marked “Chinese.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Durante la Fiebre del Oro, muchas personas de China viajaron a los Estados Unidos en busca de trabajo. El censo de 1870 introdujo la categoría racial “Chino”. Las otras categorías en el censo de 1870 fueron “Blanco”, “Negro”, “Mulato” e “Indio”. A Dion lo hubieran marcado como “Chino”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在淘金熱時期，許多來自中國的人前往美國找工作。1870 年的人口普查引入了「中國人」這一種族類別。在 1870 年人口普查中，其他的類別還有「白人」、「黑人」、「黑白混血兒」和「印第安人」。Dion 應該會被標記為「中國人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Noong panahon ng gold rush, maraming tao mula sa Tsina ang naglakbay papunta sa Estados Unidos para maghanap ng trabaho. Ipinakilala ng Senso ng 1870 ang kategoryang panlahi na \"Tsino.\" Ang iba pang kategorya sa Senso ng 1870 ay \"Puti,\" \"Itim,\" \"Mulato,\" at \"Indian.\" Si Dion ay malamang na namarkahan bilang \"Tsino.\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>Few people from China, the Philippines, or Pacific Islands lived in the United States at the time of the first census in 1790. The opinion of the individual census taker doing the counting determined how a person with Dion’s ancestry would be categorized, likely “Free White” or “Other free person.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Pocas personas de China, las Filipinas o las Islas del Pacífico vivían en los Estados Unidos cuando se realizó el primer censo en 1790. La opinión del empadronador individual que realiza el recuento determinaba cómo se categorizaría a una persona de la ascendencia de Dion, probablemente “Blanco libre” u “Otra persona libre”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1790年第一次人口普查時，很少有來自中國、菲律賓或太平洋群島的人居住在美國。負責統計的人口普查 調查員的個人意見決定了Dion 的同族是如何被分類的，應 該會是「自由白人」或「其他自由人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kaunting tao lamang mula sa Tsina, Pilipinas, at iba pang isla sa Pasipiko ang nakatira sa Estados Unidos sa panahon ng unang senso noong 1790. Ang opinyon ng indibidwal na tagakuha ng senso na gumagawa ng pagbibilang ang nagtakda kung paano ikakategorya ang taong may pinagmulan katulad kay Dion, na malamang ay \"Malayang Puti\" o kaya \"Ibang malayang tao.\"</p>\n"
+        }
+      }
+    ]
+  },
+  {
+    "title_administrative": "Race Shifting Idea Person 7",
+    "items": [
+      {
+        "Key": {
+          "#markup": "name"
+        },
+        "English": {
+          "#markup": "<p>Srinivas</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Srinivas</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>Srinivas</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Srinivas</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "identity"
+        },
+        "English": {
+          "#markup": "<p>Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Asian Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio asiático</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>亞裔印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Asyanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-button-label"
+        },
+        "English": {
+          "#markup": "<p>Asian Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio asiático</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>亞裔印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Asyanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-header-label"
+        },
+        "English": {
+          "#markup": "<p>Asian Indian</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Indio asiático</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>亞裔印第安人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Asyanong Indian</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "2000-info"
+        },
+        "English": {
+          "#markup": "<p>The 2000 Census was the first that allowed people to choose more than one racial category, but most of the population (97.6 percent) chose only one.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo del año 2000 fue el primero que permitió a las personas elegir más de una categoría racial, pero la mayor parte de la población (97.6 %) eligió solo una.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>2000 年的人口普查首次允許人們選擇一個以上的種族，但是大部份人 (97.6%) 只選擇了一種。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 2000 ang unang nagbigay ng pagkakataon sa mga tao na pumili ng higit sa isang lahi, pero malaking bahagi ng populasyon (97.6 na porsiyento) ang isa lang ang pinili.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Iba pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-button-label"
+        },
+        "English": {
+          "#markup": "<p>Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Iba pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-header-label"
+        },
+        "English": {
+          "#markup": "<p>Other</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Otro</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>其他</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Iba pa</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1960-info"
+        },
+        "English": {
+          "#markup": "<p>In the 1960 Census, people could choose a race for themselves for the first time, but census takers could revise the selection to match their instructions. The race categories were “White,” “Negro,” “American Indian,” “Chinese,” “Japanese,” “Filipino,” “Hawaiian,” or “Part Hawaiian.” Srinivas thinks he would have left the question blank. Census takers were told “For persons originating in India (except those of European stock), mark “Other” and write in ‘Hindu.’”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>En el censo de 1960, las personas podían elegir por sí mismas una raza por primera vez, pero los empadronadores podían cambiar la selección para ajustarla a sus instrucciones. Las categorías de razas eran “Blanco”, “Negro”, “Amerindio”, “Chino”, “Japonés”, “Filipino”, “Hawaiano” o “Parte hawaiano”. Srinivas piensa que habría dejado la pregunta sin responder. A los empadronadores se les decía que “Para las personas originarias de la India (salvo aquellos de ascendencia europea) marcaran ‘Otro’ y escribieran ‘Hindú’”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>在 1960 年的人口普查中，人們第一次可以為自己選擇種族，但人口普查調查員可以根據收到的指示修改人們的選擇。種族類別包括「白人」、「黑人」、「美洲印第安人」、「中國人」、「日本人」、「菲律賓人」、「夏威夷人」或「部分夏威夷人」。Srinivas 認為他會把這個問題留空。人口普查調查員收到的指示是，「對於來自印度的人（歐洲血統除外），標記為『其他』並寫上『印度教徒』。」</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Sa Senso ng 1960, ang tao na mismo ang pumipili ng lahi para sa kaniyang sarili sa kauna-unahang pagkakataon, ngunit maaari itong baguhin ng tagakuha ng senso para masunod ang ibinigay na panuto sa kanila: Ang mga kategoryang panlahi noon ay \"Puti,\" \"Negro,\" \"Amerikanong Indian,\" \"Tsino,\" Hapon,\" \"Pilipino,\" \"Hawaiano,\" o \"Halong Hawaiano.\" Para kay Srinivas, hindi na lamang niya sasagutin ang tanong. Sinabihan ang mga tagakuha ng senso na \"Para sa mga taong nagmula sa India (maliban na lang sa may lahing Europeo), markahan ang \"Iba pa\" at isulat ang 'Hindu.'\"</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Hindu</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Hindú</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印度教徒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindu</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-button-label"
+        },
+        "English": {
+          "#markup": "<p>Hindu</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Hindú</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印度教徒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindu</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-header-label"
+        },
+        "English": {
+          "#markup": "<p>Hindu</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Hindú</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>印度教徒</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Hindu</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1930-info"
+        },
+        "English": {
+          "#markup": "<p>From 1920 through 1940, the census used the religious term “Hindu” as a racial category. It was applied to many people with South Asian ancestors, regardless of their religion.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Desde 1920 hasta 1940, el censo usaba el término religioso “Hindú” como una categoría racial. Se aplicaba a muchas personas con ancestros surasiáticos, independientemente de su religión.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>從 1920 年到 1940 年期間，人口普查使用宗教術語「印度教」作為一個種族類別。它適用於許多南亞人後裔，無論他們的宗教信仰如何。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Mula 1920 hanggang 1940, ginamit ng senso ang terminolohiyang panrelihiyon na \"Hindu\" bilang kategoryang panlahi. Ginamit ito sa maraming tao na may ninunong mula Timog Asya, kahit ano pa ang kanilang relihiyon.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-bar-label"
+        },
+        "English": {
+          "#markup": "<p>[It’s unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-button-label"
+        },
+        "English": {
+          "#markup": "<p>[It’s unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-header-label"
+        },
+        "English": {
+          "#markup": "<p>[It’s unclear]</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>[No está claro]</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>[尚不明確]</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>[Hindi malinaw]</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1870-info"
+        },
+        "English": {
+          "#markup": "<p>The 1870 Census included the racial categories “White,” “Black,” “Mulatto,” “Chinese,” and “Indian,” which today’s census calls “American Indian.” The individual census taker doing the counting determined how a person with South Asian ancestors would be categorized. Given the racial understandings of the day, it’s not clear what category Srinivas would have been assigned.</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>El censo de 1870 incluía las categorías raciales “Blanco”, “Negro”, “Mulato”, “Chino” e “Indio”, que en el censo actual se denomina “Amerindio”. El empadronador individual que realiza el recuento determinaba cómo se categorizaría a una persona de ascendencia surasiática. Dada la comprensión racial de la época, no está claro qué categoría se le habría asignado a Srinivas.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>1870 年的人口普查包括「白人」、「黑人」、「黑白混血兒」、「中國人」和「印第安人」（今天的人口普查稱為「美洲印第安人」）等種族類別。負責統計的人口普查調查員決定了如何對南亞後裔進行種族劃分。考慮到當時對種族的認知，尚不明確 Srinivas 會被劃分為哪個種族。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Ang Senso ng 1870 ay nagsama ng mga kategoryang panlahi tulad ng \"Puti,\" \"Itim,\" \"Mulato,\" \"Tsino,\" at \"Indian,\" na tinatawag ng senso ngayon bilang \"Amerikanong Indian.\" Ang opinyon ng indibidwal na tagakuha ng senso na gumagawa ng pagbibilang ang nagtakda kung paano ikakategorya ang taong may ninunong mula sa Timog Asya. Kung pagbabatayan ang pag-unawa sa lahi noong mga panahong iyon, hindi malinaw kung paano ang magiging pagkategorya kay Srinivas.</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-bar-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-button-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-header-label"
+        },
+        "English": {
+          "#markup": "<p>Free White or Other free person</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Blanco libre u Otra persona libre</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>自由白人或其他自由人</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Malayang puti o Ibang malayang tao</p>\n"
+        }
+      },
+      {
+        "Key": {
+          "#markup": "1790-info"
+        },
+        "English": {
+          "#markup": "<p>Few people immigrated from southern Asia to the United States at this time. The individual census taker doing the counting determined how a person with South Asian ancestors would be categorized, likely “Free White” or “Other free person.”</p>\n"
+        },
+        "Spanish": {
+          "#markup": "<p>Pocas personas inmigraron desde Asia del sur hacia los Estados Unidos en ese momento. El empadronador individual que realiza el recuento determinaba cómo se categorizaría a una persona de ascendencia surasiática, probablemente “Blanco libre” u “Otra persona libre”.</p>\n"
+        },
+        "Chinese": {
+          "#markup": "<p>當時，從南亞人移民到美國的人並不多。負責統計的人口普查調查員決定了南亞人後裔是如何被分類的，應該會是「自由白人」或「其他自由人」。</p>\n"
+        },
+        "Filipino": {
+          "#markup": "<p>Kaunti pa lamang mula sa Timog Asya ang nandarayuhan sa Estados Unidos sa panahong ito. Ang opinyon ng indibidwal na tagakuha ng senso na gumagawa ng pagbibilang ang nagtakda kung paano ikakategorya ang taong may ninunong mula sa Timog Asya, na malamang ay \"Malayang Puti\" o kaya \"Ibang malayang tao.\"</p>\n"
+        }
+      }
+    ]
+  }
+]

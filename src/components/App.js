@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
 import '../style/App.css'
-import Loader from './Loader'
 import Translator from './Translator'
 import Credits from './Credits'
 import Main from './Main'
 import Poll from './Poll'
 import Attract from './Attract'
-import fetchJsonp from 'fetch-jsonp'
+//import fetchJsonp from 'fetch-jsonp'
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      display: 'loader', // loader || main || poll || credits || attract
+      display: 'main', // attract || main || poll || credits || attract
       data: null,
       parsedDataBasics: null,
       parsedDataPersons: [{},{},{},{},{},{},{}], // assumes 7 people
@@ -34,9 +33,6 @@ class App extends Component {
 
     // Attract handler
     this.handlerCloseAttract = this._closeAttract.bind(this)
-
-    // Loader handler
-    this.handlerLoadComplete = this._loadComplete.bind(this)
 
     // Translator handlers
     this.handlerSelectLanguage = this._selectLanguage.bind(this)
@@ -174,8 +170,7 @@ class App extends Component {
 
   _getDataCredits() {
     var _this = this
-    fetchJsonp(process.env.REACT_APP_REST_URL_CREDITS)
-    //fetch("/dev-data/dataCredits.json")
+    fetch(process.env.REACT_APP_REST_URL_CREDITS)
     .then((response) => {
       return response.json()
     }).then((data) => {
@@ -193,8 +188,7 @@ class App extends Component {
 
   _getData() {
     const _this = this
-    fetchJsonp(process.env.REACT_APP_REST_URL_TEXT, { timeout: 10000, })
-    //fetch("/dev-data/data.json")
+    fetch(process.env.REACT_APP_REST_URL_TEXT)
     .then((response) => {
       return response.json()
     }).then((data) => {
@@ -450,15 +444,6 @@ class App extends Component {
 
   }
 
-  // Loader method
-  _loadComplete() {
-    this.setState({
-      display: 'main',
-      dateLastTouch: new Date()
-    })
-    setInterval(() => this._inactivityCheck(), 5000)
-  }
-
   // Translator methods
   _selectLanguage(e, lang) {
     e.preventDefault()
@@ -499,6 +484,10 @@ class App extends Component {
   componentDidMount() {
     this._getData()
     this._getDataCredits()
+    this.setState({
+      dateLastTouch: new Date()
+    })
+    setInterval(() => this._inactivityCheck(), 5000)
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -519,16 +508,8 @@ class App extends Component {
 
     return (
       <div id="app">
-        <div id="container-loader"
-          className={this.state.display === 'loader' ? 'show' : ''}>
-          <Loader
-            // needs to verify all data
-            dataReady={this.state.dataReady}
-            handlerLoadComplete={this.handlerLoadComplete}
-          />
-        </div>
         <div id="container-translator"
-          className={this.state.display === 'loader' ? '' : 'show'}>
+          >
           <Translator
             language={this.state.currentLanguage}
             handlerSelectLanguage={this.handlerSelectLanguage}
