@@ -28,7 +28,8 @@ class App extends Component {
       dateLastTouch: null,
       activePerson: null,
       activePersonSwitch: 'off', // off || on
-      currentYear: null
+      currentYear: null,
+      currentPollOption: null
     }
 
     // Attract handler
@@ -58,8 +59,9 @@ class App extends Component {
 
   }
 
-  _interactPoll() {
+  _interactPoll(o) {
     this.setState({
+      currentPollOption: o,
       dateLastTouch: new Date()
     })
   }
@@ -67,12 +69,14 @@ class App extends Component {
   _closePoll() {
     this.setState({
       display: 'main',
+      currentPollOption: null,
       dateLastTouch: new Date()
     })
   }
 
   _openPoll() {
     this.setState({
+      currentPollOption: null,
       display: 'poll',
       dateLastTouch: new Date(),
       currentYear: null,
@@ -545,6 +549,7 @@ class App extends Component {
             language={this._getLanguageName(this.state.currentLanguage)}
             handlerClosePoll={this.handlerClosePoll}
             handlerInteractPoll={this.handlerInteractPoll}
+            option={this.state.currentPollOption}
            />
         </div>
         <div id="container-main"

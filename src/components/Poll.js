@@ -7,7 +7,6 @@ class Poll extends Component {
     this.state = {
       counts: [0,0,0,0], // assumes 4 poll counts
       total: 0,
-      option: null,
       submitted: false,
       results: [  // assumes 4 poll options
         {
@@ -32,8 +31,8 @@ class Poll extends Component {
   }
 
   _submitPoll() {
-    if (this.state.option !== null) {
-      let o = this.state.option
+    if (this.props.option !== null) {
+      let o = this.props.option
       let c = parseInt(this.state.counts[o]) + 1
       localStorage["count" + o] = c
       let r = this._getTalliedResults()
@@ -128,7 +127,6 @@ class Poll extends Component {
 
   _exitPoll() {
     this.setState({
-      option: null,
       submitted: false
     })
     this.props.handlerClosePoll()
@@ -137,10 +135,7 @@ class Poll extends Component {
   _selectOption(e, i) {
     if (this.state.submitted === false) {
       e.preventDefault()
-      this.setState({
-        option: i
-      })
-      this.props.handlerInteractPoll()
+      this.props.handlerInteractPoll(i)
     }
   }
 
@@ -165,6 +160,16 @@ class Poll extends Component {
         localStorage["count3"]
       ]
     })
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps.option !== this.props.option) {
+      if (!this.props.option) {
+        this.setState({
+          submitted: false
+        })
+      }
+    }
   }
 
   render() {
@@ -221,7 +226,7 @@ class Poll extends Component {
           <div key={"poll-option-" + i} id={"poll-option-" + i} className="poll-option">
             <div
               id={"pro-and-con-" + i}
-              className={(!(_this.state.submitted) && _this.state.option === i) ? 'pro-and-con' : 'pro-and-con hide'}
+              className={(!(_this.state.submitted) && _this.props.option === i) ? 'pro-and-con' : 'pro-and-con hide'}
               >
               <div className="pro-con-tail" />
               <h1
@@ -251,7 +256,7 @@ class Poll extends Component {
             </div>
 
             <div
-              className={_this.state.option === i ? 'checkbox on' : 'checkbox'}
+              className={_this.props.option === i ? 'checkbox on' : 'checkbox'}
               onTouchEnd={(e) => _this._selectOption(e, i)}
               onClick={(e) => _this._selectOption(e, i)}
             />
@@ -325,7 +330,7 @@ class Poll extends Component {
                 className={this.state.submitted ? 'hide' : ''}
                 id="poll-button-container">
                 <button
-                  className={this.state.option !== null ? '' : 'off'}
+                  className={this.props.option !== null ? '' : 'off'}
                   id="poll-button-submit"
                   onTouchEnd={(e) => this._submitPoll(e)}
                   onClick={(e) => this._submitPoll(e)}
