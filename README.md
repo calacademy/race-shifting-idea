@@ -49,13 +49,4 @@ yarn build
 ```
 Webpack builds optimized distribution code to /build directory.
 
-## Deploy Notes
-
-The deploy script deletes s3://race-shifting-idea.calacademy.org content and
-copies local build folder contents to s3://race-shifting-idea.calacademy.org.
-
-```
-yarn deploy
-```
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
